@@ -1,0 +1,95 @@
+import { TimelineEntity } from '../../src/models';
+
+export const warEntities: TimelineEntity[] = [
+  {
+    id: 'world-war-1',
+    title: 'World War I',
+    startDate: '1914-07-28',
+    endDate: '1918-11-11',
+    type: 'Period',
+    children: [
+      {
+        id: 'franz-ferdinand-assassination',
+        title: 'Assassination of Archduke Franz Ferdinand',
+        startDate: '1914-06-28',
+        type: 'Milestone',
+        children: [],
+        tags: [],
+        importance: 5
+      }
+    ],
+    tags: ['war', 'politics'],
+    importance: 5
+  },
+  {
+    id: 'world-war-2',
+    title: 'World War II',
+    startDate: '1939-09-01',
+    endDate: '1945-09-02',
+    type: 'Period',
+    children: [
+      {
+        id: 'hiroshima-bombing',
+        title: 'Hiroshima Atomic Bombing',
+        startDate: '1945-08-06',
+        type: 'Milestone',
+        children: [],
+        tags: [],
+        importance: 5
+      }
+    ],
+    tags: ['war', 'politics'],
+    importance: 5
+  },
+  {
+    id: 'golden-age-piracy',
+    title: 'Golden Age of Piracy',
+    startDate: '1650',
+    endDate: '1730',
+    type: 'Period',
+    children: [],
+    tags: ['war', 'maritime', 'history'],
+    importance: 3
+  },
+  {
+    id: 'opium-wars',
+    title: 'Opium Wars',
+    startDate: '1839',
+    endDate: '1860',
+    type: 'Period',
+    children: [
+      {
+        id: 'first-opium-war',
+        title: 'First Opium War',
+        startDate: '1839',
+        endDate: '1842',
+        type: 'Period',
+        children: [],
+        tags: [],
+        importance: 4
+      },
+      {
+        id: 'second-opium-war',
+        title: 'Second Opium War',
+        startDate: '1856',
+        endDate: '1860',
+        type: 'Period',
+        children: [],
+        tags: [],
+        importance: 4
+      }
+    ],
+    tags: ['war', 'politics', 'asia', 'colonialism'],
+    importance: 4
+  },
+  {
+    id: 'vietnam-war',
+    title: 'Vietnam War',
+    startDate: '1955-11-01',
+    endDate: '1975-04-30',
+    type: 'Period',
+    children: [],
+    tags: ['war', 'politics', 'asia', 'cold-war'],
+    importance: 4
+  }
+];
