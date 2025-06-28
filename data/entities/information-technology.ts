@@ -1,4 +1,4 @@
-import { TimelineEntity } from '../../src/models';
+import { TimelineEntity } from '../../src/models'
 
 export const informationTechnologyEntities: TimelineEntity[] = [
   {
@@ -9,7 +9,7 @@ export const informationTechnologyEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'information technology', 'physics'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'john-von-neumann',
@@ -19,7 +19,7 @@ export const informationTechnologyEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'mathematics', 'game theory', 'information technology'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'alan-turing',
@@ -35,10 +35,10 @@ export const informationTechnologyEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 4
-      }
+        importance: 4,
+      },
     ],
     tags: ['science', 'information technology'],
-    importance: 5
-  }
-];
+    importance: 5,
+  },
+]

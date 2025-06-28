@@ -2,18 +2,11 @@ import type { ReactElement } from 'react'
 import type { TimelineEntity } from '../models/TimelineEntity'
 import { TimelineEntityItem } from './TimelineEntityItem'
 
-export function EventsLayer({ entities }: {
-  entities: TimelineEntity[]
-}): ReactElement {
-
+export function EventsLayer({ entities }: { entities: TimelineEntity[] }): ReactElement {
   return (
     <g className="events-layer">
-      {entities.map(entity => (
-        <TimelineEntityItem
-          key={entity.id}
-          entity={entity}
-          y={getYPosition(entity)}
-        />
+      {entities.map((entity) => (
+        <TimelineEntityItem entity={entity} key={entity.id} y={getYPosition(entity)} />
       ))}
     </g>
   )

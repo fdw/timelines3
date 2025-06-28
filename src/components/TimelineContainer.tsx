@@ -1,6 +1,6 @@
-import type {ReactElement} from 'react'
-import {scienceEntities} from '../../data/entities/science'
-import {TimelineVisualization} from './TimelineVisualization'
+import type { ReactElement } from 'react'
+import { scienceEntities } from '../../data/entities/science'
+import { TimelineVisualization } from './TimelineVisualization'
 
 export function TimelineContainer(): ReactElement {
   return (

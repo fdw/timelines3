@@ -26,15 +26,15 @@ The data model uses a single interface for all types of timeline entities:
 
 ```typescript
 interface TimelineEntity {
-  id: string;
-  title: string;
-  description?: string;
-  startDate: string; // ISO format date
-  endDate?: string;  // ISO format date (required for Period and Lifetime; optional for Milestone)
-  type: 'Milestone' | 'Period' | 'Lifetime';
-  children: TimelineEntity[]; // Directly contains child entities, not just references
-  tags: string[]; // Required metadata for filtering/categorization
-  importance?: number; // For visual emphasis
+  id: string
+  title: string
+  description?: string
+  startDate: string // ISO format date
+  endDate?: string // ISO format date (required for Period and Lifetime; optional for Milestone)
+  type: 'Milestone' | 'Period' | 'Lifetime'
+  children: TimelineEntity[] // Directly contains child entities, not just references
+  tags: string[] // Required metadata for filtering/categorization
+  importance?: number // For visual emphasis
 }
 ```
 

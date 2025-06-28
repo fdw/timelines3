@@ -1,4 +1,4 @@
-import { TimelineEntity } from '../../src/models';
+import { TimelineEntity } from '../../src/models'
 
 export const politicsEntities: TimelineEntity[] = [
   {
@@ -15,11 +15,11 @@ export const politicsEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['politics', 'ancient rome'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'berlin-wall',
@@ -35,11 +35,11 @@ export const politicsEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['politics', 'modern', 'europe'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'magna-carta',
@@ -48,7 +48,7 @@ export const politicsEntities: TimelineEntity[] = [
     type: 'Milestone',
     children: [],
     tags: ['politics', 'medieval', 'europe'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'bretton-woods',
@@ -58,7 +58,7 @@ export const politicsEntities: TimelineEntity[] = [
     type: 'Period',
     children: [],
     tags: ['economics', 'politics', 'modern'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'partition-of-india',
@@ -67,7 +67,7 @@ export const politicsEntities: TimelineEntity[] = [
     type: 'Milestone',
     children: [],
     tags: ['politics', 'modern', 'asia'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'medici-bank',
@@ -76,17 +76,17 @@ export const politicsEntities: TimelineEntity[] = [
     type: 'Milestone',
     children: [],
     tags: ['economics', 'renaissance', 'europe', 'italy'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'lorenzo-medici',
-    title: 'Lorenzo de\' Medici (il Magnifico)',
+    title: "Lorenzo de' Medici (il Magnifico)",
     startDate: '1449-01-01',
     endDate: '1492-04-08',
     type: 'Lifetime',
     children: [],
     tags: ['politics', 'renaissance', 'europe', 'italy', 'art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'henry-viii',
@@ -102,10 +102,10 @@ export const politicsEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['politics', 'monarchy', 'renaissance', 'europe', 'england', 'religion'],
-    importance: 5
-  }
-];
+    importance: 5,
+  },
+]

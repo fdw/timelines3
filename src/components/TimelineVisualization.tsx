@@ -1,30 +1,21 @@
-import type {ReactElement} from 'react'
-import type {TimelineEntity} from '../models/TimelineEntity'
-import {TimelineGrid} from './TimelineGrid'
-import {EventsLayer} from './EventsLayer'
+import type { ReactElement } from 'react'
+import type { TimelineEntity } from '../models/TimelineEntity'
+import { TimelineGrid } from './TimelineGrid'
+import { EventsLayer } from './EventsLayer'
 
-export function TimelineVisualization({ 
-  entities, 
-  width = 1200, 
-  height = 400 
+export function TimelineVisualization({
+  entities,
+  width = 1200,
+  height = 400,
 }: {
   entities: TimelineEntity[]
   width?: number
   height?: number
 }): ReactElement {
   return (
-    <svg 
-      width="100%" 
-      height={height} 
-      viewBox={`0 0 ${width} ${height}`}
-      style={{ display: 'block' }}
-    >
-      <TimelineGrid 
-        height={height} 
-      />
-      <EventsLayer 
-        entities={entities} 
-      />
+    <svg height={height} style={{ display: 'block' }} viewBox={`0 0 ${width} ${height}`} width="100%">
+      <TimelineGrid height={height} />
+      <EventsLayer entities={entities} />
     </svg>
   )
 }

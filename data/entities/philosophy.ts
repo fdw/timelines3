@@ -1,4 +1,4 @@
-import { TimelineEntity } from '../../src/models';
+import { TimelineEntity } from '../../src/models'
 
 export const philosophyEntities: TimelineEntity[] = [
   {
@@ -15,7 +15,7 @@ export const philosophyEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
+        importance: 5,
       },
       {
         id: 'politics-aristotle',
@@ -24,11 +24,11 @@ export const philosophyEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['science', 'philosophy'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'francis-bacon',
@@ -44,11 +44,11 @@ export const philosophyEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 4
-      }
+        importance: 4,
+      },
     ],
     tags: ['science', 'philosophy'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'rene-descartes',
@@ -64,7 +64,7 @@ export const philosophyEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
+        importance: 5,
       },
       {
         id: 'meditations-on-first-philosophy',
@@ -73,11 +73,11 @@ export const philosophyEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['philosophy'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'karl-popper',
@@ -93,11 +93,11 @@ export const philosophyEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 4
-      }
+        importance: 4,
+      },
     ],
     tags: ['philosophy', 'science'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'blaise-pascal',
@@ -113,11 +113,11 @@ export const philosophyEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 4
-      }
+        importance: 4,
+      },
     ],
     tags: ['philosophy'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'martin-luther',
@@ -133,10 +133,10 @@ export const philosophyEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['philosophy', 'religion'],
-    importance: 5
-  }
-];
+    importance: 5,
+  },
+]

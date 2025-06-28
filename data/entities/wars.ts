@@ -1,4 +1,4 @@
-import { TimelineEntity } from '../../src/models';
+import { TimelineEntity } from '../../src/models'
 
 export const warEntities: TimelineEntity[] = [
   {
@@ -15,11 +15,11 @@ export const warEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['war', 'politics'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'world-war-2',
@@ -35,11 +35,11 @@ export const warEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['war', 'politics'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'golden-age-piracy',
@@ -49,7 +49,7 @@ export const warEntities: TimelineEntity[] = [
     type: 'Period',
     children: [],
     tags: ['war', 'maritime', 'history'],
-    importance: 3
+    importance: 3,
   },
   {
     id: 'opium-wars',
@@ -66,7 +66,7 @@ export const warEntities: TimelineEntity[] = [
         type: 'Period',
         children: [],
         tags: [],
-        importance: 4
+        importance: 4,
       },
       {
         id: 'second-opium-war',
@@ -76,11 +76,11 @@ export const warEntities: TimelineEntity[] = [
         type: 'Period',
         children: [],
         tags: [],
-        importance: 4
-      }
+        importance: 4,
+      },
     ],
     tags: ['war', 'politics', 'asia', 'colonialism'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'vietnam-war',
@@ -90,6 +90,6 @@ export const warEntities: TimelineEntity[] = [
     type: 'Period',
     children: [],
     tags: ['war', 'politics', 'asia', 'cold-war'],
-    importance: 4
-  }
-];
+    importance: 4,
+  },
+]

@@ -1,4 +1,4 @@
-import { TimelineEntity } from '../../src/models';
+import { TimelineEntity } from '../../src/models'
 
 export const architectureEntities: TimelineEntity[] = [
   {
@@ -9,7 +9,7 @@ export const architectureEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['architecture'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'frank-lloyd-wright',
@@ -19,7 +19,7 @@ export const architectureEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['architecture'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'frank-gehry',
@@ -29,7 +29,7 @@ export const architectureEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['architecture'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'antoni-gaudi',
@@ -45,11 +45,11 @@ export const architectureEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 4
-      }
+        importance: 4,
+      },
     ],
     tags: ['architecture'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'ludwig-mies-van-der-rohe',
@@ -59,7 +59,7 @@ export const architectureEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['architecture', 'design'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'zaha-hadid',
@@ -69,7 +69,7 @@ export const architectureEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['architecture'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'walter-gropius',
@@ -79,7 +79,7 @@ export const architectureEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['architecture', 'design'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'filippo-brunelleschi',
@@ -89,6 +89,6 @@ export const architectureEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['architecture'],
-    importance: 4
-  }
-];
+    importance: 4,
+  },
+]

@@ -1,4 +1,4 @@
-import { TimelineEntity } from '../../src/models';
+import { TimelineEntity } from '../../src/models'
 
 export const designEntities: TimelineEntity[] = [
   {
@@ -9,7 +9,7 @@ export const designEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['design'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'coco-chanel',
@@ -19,6 +19,6 @@ export const designEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['design', 'fashion'],
-    importance: 4
-  }
-];
+    importance: 4,
+  },
+]

@@ -1,4 +1,4 @@
-import type {TimelineEntity} from '../../src/models/TimelineEntity';
+import type { TimelineEntity } from '../../src/models/TimelineEntity'
 
 export const scienceEntities: TimelineEntity[] = [
   {
@@ -9,7 +9,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'physics'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'isaac-newton',
@@ -25,11 +25,11 @@ export const scienceEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['science', 'physics', 'mathematics'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'albert-einstein',
@@ -45,11 +45,11 @@ export const scienceEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['science', 'physics'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'nicolaus-copernicus',
@@ -59,7 +59,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'physics'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'niels-bohr',
@@ -69,7 +69,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'physics'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'charles-darwin',
@@ -79,7 +79,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'biology'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'stephen-hawking',
@@ -89,7 +89,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'physics'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'johannes-kepler',
@@ -99,7 +99,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'physics'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'gottfried-wilhelm-leibniz',
@@ -109,7 +109,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'mathematics'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'marie-curie',
@@ -119,7 +119,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'physics', 'chemistry'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'louis-pasteur',
@@ -135,11 +135,11 @@ export const scienceEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['science', 'chemistry', 'medicine'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'gregor-mendel',
@@ -149,7 +149,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'hanaoka-seishu',
@@ -159,7 +159,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'medicine'],
-    importance: 3
+    importance: 3,
   },
   {
     id: 'sigmund-freud',
@@ -169,7 +169,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'psychology'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'johannes-gutenberg',
@@ -185,7 +185,7 @@ export const scienceEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
+        importance: 5,
       },
       {
         id: 'gutenberg-bible',
@@ -194,11 +194,11 @@ export const scienceEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['science'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'bi-sheng',
@@ -214,11 +214,11 @@ export const scienceEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['science'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'alexander-fleming',
@@ -234,11 +234,11 @@ export const scienceEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['science', 'medicine'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'thomas-edison',
@@ -254,7 +254,7 @@ export const scienceEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 4
+        importance: 4,
       },
       {
         id: 'light-bulb-invention',
@@ -263,11 +263,11 @@ export const scienceEntities: TimelineEntity[] = [
         type: 'Milestone',
         children: [],
         tags: [],
-        importance: 5
-      }
+        importance: 5,
+      },
     ],
     tags: ['science'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'nikola-tesla',
@@ -277,7 +277,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'leonhard-euler',
@@ -287,7 +287,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'mathematics'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'james-watt',
@@ -297,7 +297,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'edward-jenner',
@@ -307,7 +307,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'medicine'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'norman-borlaug',
@@ -317,7 +317,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'agriculture'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'avicenna',
@@ -327,7 +327,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'robert-koch',
@@ -337,7 +337,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'medicine'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'ibn-al-haytham',
@@ -347,7 +347,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['science', 'mathematics', 'physics'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'gregorian-calendar',
@@ -356,7 +356,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Milestone',
     children: [],
     tags: ['science', 'astronomy', 'timekeeping'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'marine-chronometer',
@@ -365,7 +365,7 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Milestone',
     children: [],
     tags: ['science', 'technology', 'navigation', 'timekeeping'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'anaesthesia',
@@ -374,6 +374,6 @@ export const scienceEntities: TimelineEntity[] = [
     type: 'Milestone',
     children: [],
     tags: ['science', 'medicine', 'surgery'],
-    importance: 4
-  }
-];
+    importance: 4,
+  },
+]

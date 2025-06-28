@@ -29,16 +29,19 @@ Always use the `import type` syntax when importing types, interfaces, or type al
 - A component's props should be defined inline and not as a separate interface, unless they are used more than once. Destructure them immediately.
 
 #### React Component Guidelines
+
 - Function syntax is strongly preferred over class components
 - Consistent typing should be used throughout the codebase
 - React components should be defined as `export function Name(): ReactElement`
 - Default exports are discouraged and enforced by ESLint; use named exports instead
 
 ### Best Practices
+
 1. Follow the existing code style and structure
 2. Write tests for all new components and functionality
 3. Use TypeScript's type system effectively to catch errors at compile time
 4. Keep components small and focused on a single responsibility
 5. Use React Hooks according to the rules enforced by the linter
-6. Run `npm run lint` to check for linting errors
-7. Run `npm run build` to check for compilation errors
+6. Run `npm run build` to check for compilation errors
+7. Run `npm run lint` to check for linting errors
+8. Run `npm run prettier` after changing something, like `eslint`

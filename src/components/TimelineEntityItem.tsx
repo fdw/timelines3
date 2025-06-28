@@ -5,13 +5,7 @@ import { PeriodComponent } from './entities/PeriodComponent'
 import { LifetimeComponent } from './entities/LifetimeComponent'
 import { useScale } from '../hooks/useScale'
 
-export function TimelineEntityItem({ 
-  entity, 
-  y 
-}: {
-  entity: TimelineEntity
-  y: number
-}): ReactElement {
+export function TimelineEntityItem({ entity, y }: { entity: TimelineEntity; y: number }): ReactElement {
   // Call useScale unconditionally for both startDate and endDate
   const startX = useScale(entity.startDate)
   // Use a default date (same as startDate) if endDate is not provided
@@ -39,11 +33,11 @@ export function TimelineEntityItem({
     <g className={`timeline-entity ${entity.type.toLowerCase()}`}>
       {renderEntity()}
       <text
+        dominantBaseline="auto"
+        fontSize="12"
+        textAnchor={isMilestone ? 'start' : 'middle'}
         x={x + (isMilestone ? 10 : width / 2)}
         y={y - 15}
-        fontSize="12"
-        textAnchor={isMilestone ? "start" : "middle"}
-        dominantBaseline="auto"
       >
         {entity.title}
       </text>

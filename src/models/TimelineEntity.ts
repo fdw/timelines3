@@ -19,7 +19,7 @@ export interface Period extends CommonTimelineEntity {
   endDate: string
 }
 
-export interface Lifetime extends CommonTimelineEntity{
+export interface Lifetime extends CommonTimelineEntity {
   type: 'Lifetime'
   endDate: string
 }

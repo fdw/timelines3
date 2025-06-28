@@ -1,4 +1,4 @@
-import type { TimelineEntity } from '../../src/models';
+import type { TimelineEntity } from '../../src/models'
 
 export const artEntities: TimelineEntity[] = [
   {
@@ -9,7 +9,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art', 'renaissance', 'science'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'michelangelo',
@@ -19,7 +19,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art', 'renaissance'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'raphael',
@@ -29,7 +29,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art', 'renaissance'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'titian',
@@ -39,7 +39,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art', 'renaissance'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'vincent-van-gogh',
@@ -49,7 +49,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'johannes-vermeer',
@@ -59,7 +59,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'jan-van-eyck',
@@ -69,7 +69,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'rembrandt',
@@ -79,7 +79,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 5
+    importance: 5,
   },
   {
     id: 'francisco-goya',
@@ -89,7 +89,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'sandro-botticelli',
@@ -99,7 +99,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art', 'renaissance'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'diego-velazquez',
@@ -109,7 +109,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'jmw-turner',
@@ -119,7 +119,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'paul-cezanne',
@@ -129,7 +129,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'claude-monet',
@@ -139,7 +139,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'caravaggio',
@@ -149,7 +149,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'rogier-van-der-weyden',
@@ -159,7 +159,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 3
+    importance: 3,
   },
   {
     id: 'piero-della-francesca',
@@ -169,7 +169,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 3
+    importance: 3,
   },
   {
     id: 'pieter-bruegel-the-elder',
@@ -179,7 +179,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'edouard-manet',
@@ -189,7 +189,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'seurat',
@@ -199,7 +199,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 3
+    importance: 3,
   },
   {
     id: 'henri-matisse',
@@ -209,7 +209,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'piet-mondrian',
@@ -219,17 +219,17 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'georgia-okeeffe',
-    title: 'Georgia O\'Keeffe',
+    title: "Georgia O'Keeffe",
     startDate: '1887-11-15',
     endDate: '1986-03-06',
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'jackson-pollock',
@@ -239,7 +239,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'andy-warhol',
@@ -249,7 +249,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'artemisia-gentileschi',
@@ -259,7 +259,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 3
+    importance: 3,
   },
   {
     id: 'peter-paul-rubens',
@@ -269,7 +269,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'alphonse-mucha',
@@ -279,7 +279,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 3
+    importance: 3,
   },
   {
     id: 'gustav-klimt',
@@ -289,7 +289,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art', 'secession'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'vasiliy-kandinskiy',
@@ -299,7 +299,7 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 4
+    importance: 4,
   },
   {
     id: 'antoine-watteau',
@@ -309,6 +309,6 @@ export const artEntities: TimelineEntity[] = [
     type: 'Lifetime',
     children: [],
     tags: ['art'],
-    importance: 3
-  }
-];
+    importance: 3,
+  },
+]

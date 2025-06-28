@@ -1,8 +1,8 @@
-import { createContext } from 'react';
+import { createContext } from 'react'
 
 // The context only provides pixelsPerYear
 export interface ScaleContextType {
-  pixelsPerYear: number;
+  pixelsPerYear: number
 }
 
-export const ScaleContext = createContext<ScaleContextType | undefined>(undefined);
+export const ScaleContext = createContext<ScaleContextType | undefined>(undefined)
