@@ -1,32 +1,58 @@
+import { useMemo } from 'react'
 import type { ReactElement } from 'react'
 import type { TimelineEntity } from '../models/TimelineEntity'
 import { TimelineEntityItem } from './TimelineEntityItem'
-import { useHeight } from '../hooks/useScale'
 
 export function EventsLayer({ entities }: { entities: TimelineEntity[] }): ReactElement {
-  const height = useHeight()
+  const lanePositions = useMemo(() => {
+    return calculateLanePositions(entities)
+  }, [entities])
 
   return (
     <g className="events-layer">
       {entities.map((entity) => (
-        <TimelineEntityItem entity={entity} key={entity.id} y={getYPosition(entity, height)} />
+        <TimelineEntityItem entity={entity} key={entity.id} y={lanePositions[entity.id] || 0} />
       ))}
     </g>
   )
 }
 
-function getYPosition(entity: TimelineEntity, height: number): number {
-  const padding = 50 // Padding from top and bottom
-  const availableHeight = height - padding * 2
+function calculateLanePositions(entities: TimelineEntity[]): Record<string, number> {
+  const laneHeight = 60
+  const lanes: TimelineEntity[][] = []
+  const positions: Record<string, number> = {}
 
-  switch (entity.type) {
-    case 'Milestone':
-      return padding + availableHeight * 0.25 // 25% from the top
-    case 'Period':
-      return padding + availableHeight * 0.5 // 50% from the top (middle)
-    case 'Lifetime':
-      return padding + availableHeight * 0.75 // 75% from the top
-    default:
-      return padding + availableHeight * 0.5 // Default to middle
+  const sortedEntities = [...entities].sort((a, b) => (a.startDate.isBefore(b.startDate) ? -1 : 1))
+
+  for (const entity of sortedEntities) {
+    const laneIndex = findAvailableLane(lanes, entity)
+    if (lanes[laneIndex]) {
+      lanes[laneIndex].push(entity)
+    } else {
+      lanes[laneIndex] = [entity]
+    }
+    positions[entity.id] = laneIndex * laneHeight + laneHeight / 2
   }
+
+  return positions
+}
+
+function findAvailableLane(lanes: TimelineEntity[][], entity: TimelineEntity): number {
+  for (let i = 0; i < lanes.length; i++) {
+    if (isLaneAvailable(lanes[i], entity)) {
+      return i
+    }
+  }
+  return lanes.length
+}
+
+function isLaneAvailable(lane: TimelineEntity[], entity: TimelineEntity): boolean {
+  if (lane.length === 0) {
+    return true
+  }
+
+  const lastEntity = lane[lane.length - 1]
+  const lastEntityRight = lastEntity.type === 'Milestone' ? lastEntity.startDate.add(30, 'day') : lastEntity.endDate
+
+  return lastEntityRight.add(5, 'years').isBefore(entity.startDate)
 }
