@@ -8,17 +8,19 @@ export function useScale(date: Dayjs): number {
     throw new Error('useScale must be used within a ScaleProvider')
   }
 
-  const { pixelsPerYear } = context
+  const { width, zoomFactor } = context
+  const pixelsPerYear = width / (100 * zoomFactor)
+
   return date.year() * pixelsPerYear
 }
 
-export function useWidth(): number {
+export function useZoomFactor(): number {
   const context = useContext(ScaleContext)
   if (context === undefined) {
-    throw new Error('useWidth must be used within a ScaleProvider')
+    throw new Error('useZoomFactor must be used within a ScaleProvider')
   }
 
-  return context.width
+  return context.zoomFactor
 }
 
 export function useHeight(): number {

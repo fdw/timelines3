@@ -1,7 +1,7 @@
 import { createContext } from 'react'
 
 export interface ScaleContextType {
-  pixelsPerYear: number
+  zoomFactor: number
   width: number
   height: number
 }
