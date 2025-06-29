@@ -12,19 +12,6 @@ export function useScale(date: Dayjs): number {
   return date.year() * pixelsPerYear
 }
 
-export function useScaleFunction(): (_: Dayjs) => number {
-  const context = useContext(ScaleContext)
-  if (context === undefined) {
-    throw new Error('useScale must be used within a ScaleProvider')
-  }
-
-  const { pixelsPerYear } = context
-
-  return function (date: Dayjs): number {
-    return date.year() * pixelsPerYear
-  }
-}
-
 export function useWidth(): number {
   const context = useContext(ScaleContext)
   if (context === undefined) {

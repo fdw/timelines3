@@ -1,4 +1,4 @@
-import type { TimelineEntity } from '../../src/models'
+import type { TimelineEntity } from '../../src/models/TimelineEntity'
 import { importEntitiesWithDayjs } from '../../src/utils/dateImporter'
 
 // Raw entities with string dates

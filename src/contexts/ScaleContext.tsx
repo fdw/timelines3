@@ -2,14 +2,12 @@ import { useState, useMemo, useRef, useEffect, type ReactNode, type ReactElement
 import dayjs from 'dayjs'
 import { ScaleContext } from './ScaleContextType'
 
-// ScaleProvider component
 export function ScaleProvider({ children }: { children: ReactNode }): ReactElement {
   const [pixelsPerYear, setPixelsPerYear] = useState<number>(10)
   const [width, setWidth] = useState<number>(0)
   const [height, setHeight] = useState<number>(0)
   const containerRef = useRef<HTMLDivElement>(null)
 
-  // Find the available width and height
   useEffect(() => {
     function updateDimensions(): void {
       if (containerRef.current) {

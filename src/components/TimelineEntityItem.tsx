@@ -6,11 +6,8 @@ import { LifetimeComponent } from './entities/LifetimeComponent'
 import { useScale } from '../hooks/useScale'
 
 export function TimelineEntityItem({ entity, y }: { entity: TimelineEntity; y: number }): ReactElement {
-  // Call useScale unconditionally for both startDate and endDate
   const startX = useScale(entity.startDate)
-  // Use a default date (same as startDate) if endDate is not provided
-  const endDateX = useScale(entity.endDate || entity.startDate)
-  // Use startX if endDate is not provided
+  const endDateX = useScale(entity.endDate ?? entity.startDate)
   const endX = entity.endDate ? endDateX : startX
   const isMilestone = entity.type === 'Milestone'
   const width = isMilestone ? 10 : Math.max(endX - startX, 2)
