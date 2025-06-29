@@ -1,18 +1,18 @@
 import { useContext } from 'react'
+import type { Dayjs } from 'dayjs'
 import { ScaleContext } from '../contexts/ScaleContextType'
 
-export function useScale(date: Date | string): number {
+export function useScale(date: Dayjs): number {
   const context = useContext(ScaleContext)
   if (context === undefined) {
     throw new Error('useScale must be used within a ScaleProvider')
   }
 
-  const dateObj = typeof date === 'string' ? new Date(date) : date
   const { pixelsPerYear } = context
-  return dateObj.getFullYear() * pixelsPerYear
+  return date.year() * pixelsPerYear
 }
 
-export function useScaleFunction(): (_: Date) => number {
+export function useScaleFunction(): (_: Dayjs) => number {
   const context = useContext(ScaleContext)
   if (context === undefined) {
     throw new Error('useScale must be used within a ScaleProvider')
@@ -20,7 +20,25 @@ export function useScaleFunction(): (_: Date) => number {
 
   const { pixelsPerYear } = context
 
-  return function (date: Date): number {
-    return date.getFullYear() * pixelsPerYear
+  return function (date: Dayjs): number {
+    return date.year() * pixelsPerYear
   }
+}
+
+export function useWidth(): number {
+  const context = useContext(ScaleContext)
+  if (context === undefined) {
+    throw new Error('useWidth must be used within a ScaleProvider')
+  }
+
+  return context.width
+}
+
+export function useHeight(): number {
+  const context = useContext(ScaleContext)
+  if (context === undefined) {
+    throw new Error('useHeight must be used within a ScaleProvider')
+  }
+
+  return context.height
 }

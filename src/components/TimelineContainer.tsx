@@ -4,7 +4,7 @@ import { TimelineVisualization } from './TimelineVisualization'
 
 export function TimelineContainer(): ReactElement {
   return (
-    <div style={{ width: '100%', overflowX: 'auto' }}>
+    <div style={{ width: '100%', height: '100%', overflowX: 'auto' }}>
       <TimelineVisualization entities={scienceEntities} />
     </div>
   )

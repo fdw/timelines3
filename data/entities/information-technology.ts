@@ -1,6 +1,8 @@
 import { TimelineEntity } from '../../src/models'
+import { importEntitiesWithDayjs } from '../../src/utils/dateImporter'
 
-export const informationTechnologyEntities: TimelineEntity[] = [
+// Raw entities with string dates
+const rawInformationTechnologyEntities = [
   {
     id: 'claude-shannon',
     title: 'Claude Shannon',
@@ -42,3 +44,6 @@ export const informationTechnologyEntities: TimelineEntity[] = [
     importance: 5,
   },
 ]
+
+// Export entities with dayjs dates
+export const informationTechnologyEntities: TimelineEntity[] = importEntitiesWithDayjs(rawInformationTechnologyEntities)
