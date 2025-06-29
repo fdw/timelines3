@@ -24,6 +24,16 @@ export function ScaleProvider({ children }: { children: ReactNode }): ReactEleme
     return () => window.removeEventListener('resize', updateDimensions)
   }, [])
 
+  useEffect(() => {
+    if (containerRef.current) {
+      setTimeout(() => {
+        if (containerRef.current) {
+          containerRef.current.scrollLeft = containerRef.current.scrollWidth - containerRef.current.clientWidth
+        }
+      }, 0)
+    }
+  }, [width])
+
   const value = useMemo(() => ({ zoomFactor, width, height }), [zoomFactor, width, height])
 
   return (
