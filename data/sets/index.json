@@ -1,0 +1,50 @@
+[
+  {
+    "id": "science",
+    "name": "Science",
+    "description": "Timeline of scientific discoveries and scientists",
+    "filename": "science.json"
+  },
+  {
+    "id": "art",
+    "name": "Art",
+    "description": "Timeline of artists and art movements",
+    "filename": "art.json"
+  },
+  {
+    "id": "architecture",
+    "name": "Architecture",
+    "description": "Timeline of architectural styles and notable buildings",
+    "filename": "architecture.json"
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "description": "Timeline of design movements and notable designers",
+    "filename": "design.json"
+  },
+  {
+    "id": "information-technology",
+    "name": "Information Technology",
+    "description": "Timeline of computing and information technology developments",
+    "filename": "information-technology.json"
+  },
+  {
+    "id": "philosophy",
+    "name": "Philosophy",
+    "description": "Timeline of philosophical movements and philosophers",
+    "filename": "philosophy.json"
+  },
+  {
+    "id": "politics",
+    "name": "Politics",
+    "description": "Timeline of political events and figures",
+    "filename": "politics.json"
+  },
+  {
+    "id": "wars",
+    "name": "Wars",
+    "description": "Timeline of major conflicts and wars",
+    "filename": "wars.json"
+  }
+]

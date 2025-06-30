@@ -1,12 +1,13 @@
 import type { ReactElement } from 'react'
-import type { TimelineEntity } from '../models/TimelineEntity'
 import { TimelineGrid } from './TimelineGrid'
 import { EventsLayer } from './EventsLayer'
 import { useScale } from '../hooks/useScale'
-import { scienceEntities } from '../../data/entities/science'
+import { useEntities } from '../hooks/useEntities'
 import dayjs from 'dayjs'
 
-export function TimelineVisualization({ entities = scienceEntities }: { entities?: TimelineEntity[] }): ReactElement {
+export function TimelineVisualization(): ReactElement {
+  const entities = useEntities()
+
   const timelineWidth = useScale(dayjs())
 
   return (
