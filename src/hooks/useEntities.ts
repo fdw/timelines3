@@ -21,12 +21,12 @@ export function useEntities(): TimelineEntity[] {
   })
 }
 
-async function fetchDataSet(filename: string): Promise<RawTimelineEntity[]> {
+async function fetchDataSet(filename: string): Promise<TimelineEntityDto[]> {
   const response = await fetch(`/data/sets/${filename}`)
   return await response.json()
 }
 
-export function mapToEntity(entities: RawTimelineEntity[]): TimelineEntity[] {
+export function mapToEntity(entities: TimelineEntityDto[]): TimelineEntity[] {
   return entities.map((entity) => {
     switch (entity.type) {
       case 'Milestone':
@@ -40,18 +40,41 @@ export function mapToEntity(entities: RawTimelineEntity[]): TimelineEntity[] {
           ...entity,
           startDate: dayjs(entity.startDate),
           endDate: dayjs(entity.endDate),
+          children: mapToEntity(entity.children),
         }
     }
   })
 }
 
-export interface RawTimelineEntity {
+export type TimelineEntityDto = MilestoneDto | PeriodDto | LifetimeDto
+
+interface MilestoneDto {
+  id: string
+  title: string
+  startDate: string
+  type: 'Milestone'
+  tags: string[]
+  importance: number
+}
+
+interface PeriodDto {
   id: string
   title: string
   startDate: string
   endDate?: string
-  type: 'Milestone' | 'Period' | 'Lifetime'
-  children: RawTimelineEntity[]
+  type: 'Period'
+  children: TimelineEntityDto[]
   tags: string[]
-  importance?: number
+  importance: number
+}
+
+interface LifetimeDto {
+  id: string
+  title: string
+  startDate: string
+  endDate?: string
+  type: 'Lifetime'
+  children: TimelineEntityDto[]
+  tags: string[]
+  importance: number
 }
