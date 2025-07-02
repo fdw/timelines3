@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { DataSetsContext } from '../contexts/DataSetsContextType'
+import { DataSetsContext } from './DataSetsContextType'
 
 export function useDataSets(): Set<string> {
   const context = useContext(DataSetsContext)

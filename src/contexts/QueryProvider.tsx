@@ -4,9 +4,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 export function QueryProvider({ children }: { children: ReactNode }): ReactElement {
   return (
     <QueryClientProvider client={queryClient}>
-      <Suspense fallback={<div>Loading...</div>}>
-        {children}
-      </Suspense>
+      <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
     </QueryClientProvider>
   )
 }

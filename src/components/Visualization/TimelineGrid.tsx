@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react'
 import dayjs from 'dayjs'
-import { useScale } from '../hooks/useScale.ts'
+import { useScale } from '../../state/zoom/useScale'
 
 export function TimelineGrid(): ReactElement {
   const lines = []

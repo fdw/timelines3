@@ -2,7 +2,6 @@ import { type ReactElement, type ReactNode, useEffect, useMemo, useRef, useState
 import { ScaleContext } from './ScaleContextType'
 
 export function ScaleProvider({ children }: { children: ReactNode }): ReactElement {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [zoomFactor, setZoomFactor] = useState<number>(1.0) // Default zoom factor: 1.0 means 100 years are shown
 
   const [width, setWidth] = useState<number>(0)
@@ -34,7 +33,7 @@ export function ScaleProvider({ children }: { children: ReactNode }): ReactEleme
     }
   }, [width])
 
-  const value = useMemo(() => ({ zoomFactor, width, height }), [zoomFactor, width, height])
+  const value = useMemo(() => ({ zoomFactor, width, height, setZoomFactor }), [zoomFactor, width, height])
 
   return (
     <div ref={containerRef} style={{ width: '100%', height: '100%', overflowX: 'auto' }}>

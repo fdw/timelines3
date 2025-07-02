@@ -1,7 +1,7 @@
 import { useSuspenseQueries } from '@tanstack/react-query'
 import { useDataSets } from './useDataSets'
 import { useDataSetsIndex } from './useDataSetsIndex'
-import type { TimelineEntity } from '../models/TimelineEntity'
+import type { TimelineEntity } from '../../models/TimelineEntity'
 import dayjs from 'dayjs'
 
 export function useEntities(): TimelineEntity[] {
@@ -40,7 +40,7 @@ export function mapToEntity(entities: TimelineEntityDto[]): TimelineEntity[] {
           ...entity,
           startDate: dayjs(entity.startDate),
           endDate: dayjs(entity.endDate),
-          children: mapToEntity(entity.children),
+          children: mapToEntity(entity.children ?? []),
         }
     }
   })

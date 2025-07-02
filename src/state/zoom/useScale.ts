@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import type { Dayjs } from 'dayjs'
-import { ScaleContext } from '../contexts/ScaleContextType'
+import { ScaleContext } from './ScaleContextType'
 
 export function useScale(date: Dayjs): number {
   const context = useContext(ScaleContext)

@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react'
-import type { Milestone } from '../../models/TimelineEntity'
-import { useScale } from '../../hooks/useScale'
+import type { Milestone } from '../../../models/TimelineEntity'
+import { useScale } from '../../../state/zoom/useScale'
 import { EntityTitle } from './EntityTitle'
 
 export function MilestoneComponent({ entity, y }: { entity: Milestone; y: number }): ReactElement {

@@ -1,10 +1,13 @@
 import { useMemo } from 'react'
 import type { ReactElement } from 'react'
 import type { Dayjs } from 'dayjs'
-import type { TimelineEntity } from '../models/TimelineEntity'
+import type { TimelineEntity } from '../../models/TimelineEntity'
 import { TimelineEntityItem } from './TimelineEntityItem'
+import { useEntities } from '../../state/data/useEntities'
 
-export function EventsLayer({ entities }: { entities: TimelineEntity[] }): ReactElement {
+export function EventsLayer(): ReactElement {
+  const entities = useEntities()
+
   const lanePositions = useMemo(() => {
     return calculateLanePositions(entities)
   }, [entities])

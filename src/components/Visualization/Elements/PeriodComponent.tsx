@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react'
-import type { Period } from '../../models/TimelineEntity'
-import { useScale } from '../../hooks/useScale'
+import type { Period } from '../../../models/TimelineEntity'
+import { useScale } from '../../../state/zoom/useScale'
 import { EntityTitle } from './EntityTitle'
 
 export function PeriodComponent({ entity, y }: { entity: Period; y: number }): ReactElement {
