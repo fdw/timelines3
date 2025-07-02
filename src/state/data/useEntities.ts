@@ -1,14 +1,14 @@
-import { useSuspenseQueries } from '@tanstack/react-query'
+import { useQueries } from '@tanstack/react-query'
 import { useDataSets } from './useDataSets'
 import { useDataSetsIndex } from './useDataSetsIndex'
 import type { TimelineEntity } from '../../models/TimelineEntity'
 import dayjs from 'dayjs'
 
-export function useEntities(): TimelineEntity[] {
+export function useEntities(): { data: TimelineEntity[]; isLoading: boolean } {
   const selectedDataSetIds = useDataSets()
   const dataSetsIndex = useDataSetsIndex()
 
-  return useSuspenseQueries({
+  return useQueries({
     queries: Array.from(selectedDataSetIds).map((id) => ({
       queryKey: ['dataset', id],
       queryFn: async () => {
@@ -17,7 +17,10 @@ export function useEntities(): TimelineEntity[] {
       },
       select: mapToEntity,
     })),
-    combine: (result) => [...new Set(result.flatMap((it) => it.data))],
+    combine: (result) => ({
+      data: [...new Set(result.flatMap((it) => it.data))].filter((it) => it !== undefined),
+      isLoading: result.reduce((acc, cur) => acc || cur.isLoading, false),
+    }),
   })
 }
 

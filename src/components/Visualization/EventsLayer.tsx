@@ -5,12 +5,16 @@ import type { TimelineEntity } from '../../models/TimelineEntity'
 import { TimelineEntityItem } from './TimelineEntityItem'
 import { useEntities } from '../../state/data/useEntities'
 
-export function EventsLayer(): ReactElement {
-  const entities = useEntities()
+export function EventsLayer(): ReactElement | null {
+  const { data: entities, isLoading } = useEntities()
 
   const lanePositions = useMemo(() => {
     return calculateLanePositions(entities)
   }, [entities])
+
+  if (isLoading) {
+    return null
+  }
 
   return (
     <g className="events-layer">

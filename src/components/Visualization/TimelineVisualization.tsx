@@ -8,11 +8,9 @@ export function TimelineVisualization(): ReactElement {
   const timelineWidth = useScale(dayjs())
 
   return (
-    <Suspense>
-      <svg height="100%" style={{ display: 'block' }} width={timelineWidth}>
-        <TimelineGrid />
-        <EventsLayer />
-      </svg>
-    </Suspense>
+    <svg height="100%" style={{ display: 'block' }} width={timelineWidth}>
+      <TimelineGrid />
+      <EventsLayer />
+    </svg>
   )
 }
