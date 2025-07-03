@@ -46,5 +46,11 @@
     "name": "Wars",
     "description": "Timeline of major conflicts and wars",
     "filename": "wars.json"
+  },
+  {
+    "id": "R1T2",
+    "name": "List by R1T2 Chimera",
+    "description": "A list made by the LLM R1T2 Chimera",
+    "filename": "r1t2.json"
   }
 ]

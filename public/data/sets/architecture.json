@@ -9,7 +9,7 @@
     "tags": [
       "architecture"
     ],
-    "importance": 5
+    "importance": 18
   },
   {
     "id": "frank-lloyd-wright",
@@ -21,7 +21,7 @@
     "tags": [
       "architecture"
     ],
-    "importance": 5
+    "importance": 19
   },
   {
     "id": "frank-gehry",
@@ -32,7 +32,7 @@
     "tags": [
       "architecture"
     ],
-    "importance": 4
+    "importance": 15
   },
   {
     "id": "antoni-gaudi",
@@ -48,13 +48,13 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 4
+        "importance": 16
       }
     ],
     "tags": [
       "architecture"
     ],
-    "importance": 5
+    "importance": 17
   },
   {
     "id": "ludwig-mies-van-der-rohe",
@@ -67,7 +67,7 @@
       "architecture",
       "design"
     ],
-    "importance": 4
+    "importance": 17
   },
   {
     "id": "zaha-hadid",
@@ -79,7 +79,7 @@
     "tags": [
       "architecture"
     ],
-    "importance": 4
+    "importance": 14
   },
   {
     "id": "walter-gropius",
@@ -92,7 +92,7 @@
       "architecture",
       "design"
     ],
-    "importance": 4
+    "importance": 16
   },
   {
     "id": "filippo-brunelleschi",
@@ -104,6 +104,6 @@
     "tags": [
       "architecture"
     ],
-    "importance": 4
+    "importance": 18
   }
 ]

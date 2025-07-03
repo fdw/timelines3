@@ -45,14 +45,14 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 4
+        "importance": 17
       }
     ],
     "tags": [
       "science",
       "philosophy"
     ],
-    "importance": 4
+    "importance": 18
   },
   {
     "id": "rene-descartes",
@@ -68,7 +68,7 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 14
       },
       {
         "id": "meditations-on-first-philosophy",
@@ -77,13 +77,13 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 15
       }
     ],
     "tags": [
       "philosophy"
     ],
-    "importance": 5
+    "importance": 19
   },
   {
     "id": "karl-popper",
@@ -99,14 +99,14 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 4
+        "importance": 13
       }
     ],
     "tags": [
       "philosophy",
       "science"
     ],
-    "importance": 4
+    "importance": 14
   },
   {
     "id": "blaise-pascal",
@@ -122,13 +122,13 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 4
+        "importance": 10
       }
     ],
     "tags": [
       "philosophy"
     ],
-    "importance": 4
+    "importance": 12
   },
   {
     "id": "martin-luther",
@@ -144,13 +144,13 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 19
       }
     ],
     "tags": [
       "philosophy",
       "religion"
     ],
-    "importance": 5
+    "importance": 18
   }
 ]
