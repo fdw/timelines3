@@ -32,7 +32,7 @@ export function useEntities(): { data: TimelineEntity[]; isLoading: boolean } {
 }
 
 async function fetchDataSet(filename: string): Promise<TimelineEntityDto[]> {
-  const response = await fetch(`/data/sets/${filename}`)
+  const response = await fetch(`data/sets/${filename}`)
   return await response.json()
 }
 

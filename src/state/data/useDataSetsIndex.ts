@@ -15,6 +15,6 @@ interface DataSetInfo {
 }
 
 async function fetchDataSetsIndex(): Promise<DataSetInfo[]> {
-  const response = await fetch('/data/sets/index.json')
+  const response = await fetch('data/sets/index.json')
   return await response.json()
 }
