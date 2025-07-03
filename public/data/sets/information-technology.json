@@ -11,7 +11,7 @@
       "information technology",
       "physics"
     ],
-    "importance": 4
+    "importance": 7
   },
   {
     "id": "john-von-neumann",
@@ -26,7 +26,7 @@
       "game theory",
       "information technology"
     ],
-    "importance": 5
+    "importance": 15
   },
   {
     "id": "alan-turing",
@@ -49,6 +49,6 @@
       "science",
       "information technology"
     ],
-    "importance": 5
+    "importance": 12
   }
 ]

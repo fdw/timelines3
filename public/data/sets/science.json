@@ -10,7 +10,7 @@
       "science",
       "physics"
     ],
-    "importance": 19
+    "importance": 17
   },
   {
     "id": "isaac-newton",
@@ -70,7 +70,7 @@
       "science",
       "physics"
     ],
-    "importance": 19
+    "importance": 17
   },
   {
     "id": "niels-bohr",
@@ -83,7 +83,7 @@
       "science",
       "physics"
     ],
-    "importance": 16
+    "importance": 15
   },
   {
     "id": "charles-darwin",
@@ -96,7 +96,7 @@
       "science",
       "biology"
     ],
-    "importance": 20
+    "importance": 19
   },
   {
     "id": "stephen-hawking",
@@ -109,7 +109,7 @@
       "science",
       "physics"
     ],
-    "importance": 15
+    "importance": 13
   },
   {
     "id": "johannes-kepler",
@@ -122,7 +122,7 @@
       "science",
       "physics"
     ],
-    "importance": 17
+    "importance": 15
   },
   {
     "id": "gottfried-wilhelm-leibniz",
@@ -135,7 +135,7 @@
       "science",
       "mathematics"
     ],
-    "importance": 14
+    "importance": 12
   },
   {
     "id": "marie-curie",
@@ -149,7 +149,7 @@
       "physics",
       "chemistry"
     ],
-    "importance": 18
+    "importance": 17
   },
   {
     "id": "louis-pasteur",
@@ -173,7 +173,7 @@
       "chemistry",
       "medicine"
     ],
-    "importance": 18
+    "importance": 17
   },
   {
     "id": "gregor-mendel",
@@ -185,7 +185,7 @@
     "tags": [
       "science"
     ],
-    "importance": 16
+    "importance": 13
   },
   {
     "id": "hanaoka-seishu",
@@ -211,7 +211,7 @@
       "science",
       "psychology"
     ],
-    "importance": 17
+    "importance": 15
   },
   {
     "id": "johannes-gutenberg",
@@ -242,7 +242,7 @@
     "tags": [
       "science"
     ],
-    "importance": 20
+    "importance": 15
   },
   {
     "id": "bi-sheng",
@@ -287,7 +287,7 @@
       "science",
       "medicine"
     ],
-    "importance": 18
+    "importance": 17
   },
   {
     "id": "thomas-edison",
@@ -303,7 +303,7 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 12
+        "importance": 13
       },
       {
         "id": "light-bulb-invention",
@@ -318,7 +318,7 @@
     "tags": [
       "science"
     ],
-    "importance": 17
+    "importance": 15
   },
   {
     "id": "nikola-tesla",
@@ -330,7 +330,7 @@
     "tags": [
       "science"
     ],
-    "importance": 16
+    "importance": 15
   },
   {
     "id": "leonhard-euler",
@@ -420,7 +420,7 @@
       "psychology",
       "neuroscience"
     ],
-    "importance": 9
+    "importance": 1
   },
   {
     "id": "bf-skinner",
@@ -433,7 +433,7 @@
       "psychology",
       "behaviorism"
     ],
-    "importance": 12
+    "importance": 10
   },
   {
     "id": "john-maynard-keynes",
@@ -497,7 +497,7 @@
       "navigation",
       "timekeeping"
     ],
-    "importance": 11
+    "importance": 16
   },
   {
     "id": "anaesthesia",
@@ -510,6 +510,6 @@
       "medicine",
       "surgery"
     ],
-    "importance": 16
+    "importance": 18
   }
 ]
