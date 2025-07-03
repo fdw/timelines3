@@ -11,7 +11,7 @@
       "renaissance",
       "science"
     ],
-    "importance": 5
+    "importance": 20
   },
   {
     "id": "michelangelo",
@@ -24,7 +24,7 @@
       "art",
       "renaissance"
     ],
-    "importance": 5
+    "importance": 20
   },
   {
     "id": "raphael",
@@ -37,7 +37,7 @@
       "art",
       "renaissance"
     ],
-    "importance": 4
+    "importance": 18
   },
   {
     "id": "titian",
@@ -50,7 +50,7 @@
       "art",
       "renaissance"
     ],
-    "importance": 4
+    "importance": 17
   },
   {
     "id": "vincent-van-gogh",
@@ -62,7 +62,7 @@
     "tags": [
       "art"
     ],
-    "importance": 5
+    "importance": 19
   },
   {
     "id": "johannes-vermeer",
@@ -74,7 +74,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 16
   },
   {
     "id": "jan-van-eyck",
@@ -86,7 +86,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 17
   },
   {
     "id": "rembrandt",
@@ -98,7 +98,7 @@
     "tags": [
       "art"
     ],
-    "importance": 5
+    "importance": 19
   },
   {
     "id": "francisco-goya",
@@ -110,7 +110,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 17
   },
   {
     "id": "sandro-botticelli",
@@ -123,7 +123,7 @@
       "art",
       "renaissance"
     ],
-    "importance": 4
+    "importance": 16
   },
   {
     "id": "diego-velazquez",
@@ -135,7 +135,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 17
   },
   {
     "id": "jmw-turner",
@@ -147,7 +147,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 16
   },
   {
     "id": "paul-cezanne",
@@ -159,7 +159,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 18
   },
   {
     "id": "claude-monet",
@@ -171,7 +171,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 18
   },
   {
     "id": "caravaggio",
@@ -183,7 +183,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 17
   },
   {
     "id": "rogier-van-der-weyden",
@@ -195,7 +195,7 @@
     "tags": [
       "art"
     ],
-    "importance": 3
+    "importance": 14
   },
   {
     "id": "piero-della-francesca",
@@ -207,7 +207,7 @@
     "tags": [
       "art"
     ],
-    "importance": 3
+    "importance": 15
   },
   {
     "id": "pieter-bruegel-the-elder",
@@ -219,7 +219,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 16
   },
   {
     "id": "edouard-manet",
@@ -231,7 +231,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 17
   },
   {
     "id": "seurat",
@@ -243,7 +243,7 @@
     "tags": [
       "art"
     ],
-    "importance": 3
+    "importance": 14
   },
   {
     "id": "henri-matisse",
@@ -255,7 +255,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 18
   },
   {
     "id": "piet-mondrian",
@@ -267,7 +267,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 16
   },
   {
     "id": "georgia-okeeffe",
@@ -279,7 +279,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 15
   },
   {
     "id": "jackson-pollock",
@@ -291,7 +291,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 17
   },
   {
     "id": "andy-warhol",
@@ -303,7 +303,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 18
   },
   {
     "id": "artemisia-gentileschi",
@@ -315,7 +315,7 @@
     "tags": [
       "art"
     ],
-    "importance": 3
+    "importance": 13
   },
   {
     "id": "peter-paul-rubens",
@@ -327,7 +327,7 @@
     "tags": [
       "art"
     ],
-    "importance": 4
+    "importance": 17
   },
   {
     "id": "alphonse-mucha",
@@ -339,7 +339,7 @@
     "tags": [
       "art"
     ],
-    "importance": 3
+    "importance": 12
   },
   {
     "id": "gustav-klimt",

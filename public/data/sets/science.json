@@ -10,7 +10,7 @@
       "science",
       "physics"
     ],
-    "importance": 5
+    "importance": 19
   },
   {
     "id": "isaac-newton",
@@ -26,7 +26,7 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 20
       }
     ],
     "tags": [
@@ -34,7 +34,7 @@
       "physics",
       "mathematics"
     ],
-    "importance": 5
+    "importance": 20
   },
   {
     "id": "albert-einstein",
@@ -50,14 +50,14 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 20
       }
     ],
     "tags": [
       "science",
       "physics"
     ],
-    "importance": 5
+    "importance": 20
   },
   {
     "id": "nicolaus-copernicus",
@@ -70,7 +70,7 @@
       "science",
       "physics"
     ],
-    "importance": 5
+    "importance": 19
   },
   {
     "id": "niels-bohr",
@@ -83,7 +83,7 @@
       "science",
       "physics"
     ],
-    "importance": 4
+    "importance": 16
   },
   {
     "id": "charles-darwin",
@@ -96,7 +96,7 @@
       "science",
       "biology"
     ],
-    "importance": 5
+    "importance": 20
   },
   {
     "id": "stephen-hawking",
@@ -109,7 +109,7 @@
       "science",
       "physics"
     ],
-    "importance": 4
+    "importance": 15
   },
   {
     "id": "johannes-kepler",
@@ -122,7 +122,7 @@
       "science",
       "physics"
     ],
-    "importance": 4
+    "importance": 17
   },
   {
     "id": "gottfried-wilhelm-leibniz",
@@ -135,7 +135,7 @@
       "science",
       "mathematics"
     ],
-    "importance": 4
+    "importance": 14
   },
   {
     "id": "marie-curie",
@@ -149,7 +149,7 @@
       "physics",
       "chemistry"
     ],
-    "importance": 5
+    "importance": 18
   },
   {
     "id": "louis-pasteur",
@@ -165,7 +165,7 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 19
       }
     ],
     "tags": [
@@ -173,7 +173,7 @@
       "chemistry",
       "medicine"
     ],
-    "importance": 4
+    "importance": 18
   },
   {
     "id": "gregor-mendel",
@@ -185,7 +185,7 @@
     "tags": [
       "science"
     ],
-    "importance": 4
+    "importance": 16
   },
   {
     "id": "hanaoka-seishu",
@@ -198,7 +198,7 @@
       "science",
       "medicine"
     ],
-    "importance": 3
+    "importance": 8
   },
   {
     "id": "sigmund-freud",
@@ -211,7 +211,7 @@
       "science",
       "psychology"
     ],
-    "importance": 4
+    "importance": 17
   },
   {
     "id": "johannes-gutenberg",
@@ -227,7 +227,7 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 19
       },
       {
         "id": "gutenberg-bible",
@@ -236,13 +236,13 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 18
       }
     ],
     "tags": [
       "science"
     ],
-    "importance": 5
+    "importance": 20
   },
   {
     "id": "bi-sheng",
@@ -258,13 +258,13 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 15
       }
     ],
     "tags": [
       "science"
     ],
-    "importance": 4
+    "importance": 13
   },
   {
     "id": "alexander-fleming",
@@ -280,14 +280,14 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 20
       }
     ],
     "tags": [
       "science",
       "medicine"
     ],
-    "importance": 4
+    "importance": 18
   },
   {
     "id": "thomas-edison",
@@ -303,7 +303,7 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 4
+        "importance": 12
       },
       {
         "id": "light-bulb-invention",
@@ -312,13 +312,13 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 18
       }
     ],
     "tags": [
       "science"
     ],
-    "importance": 5
+    "importance": 17
   },
   {
     "id": "nikola-tesla",
@@ -330,7 +330,7 @@
     "tags": [
       "science"
     ],
-    "importance": 4
+    "importance": 16
   },
   {
     "id": "leonhard-euler",
@@ -343,7 +343,7 @@
       "science",
       "mathematics"
     ],
-    "importance": 4
+    "importance": 15
   },
   {
     "id": "james-watt",
@@ -355,7 +355,7 @@
     "tags": [
       "science"
     ],
-    "importance": 4
+    "importance": 17
   },
   {
     "id": "edward-jenner",
@@ -368,7 +368,7 @@
       "science",
       "medicine"
     ],
-    "importance": 4
+    "importance": 18
   },
   {
     "id": "norman-borlaug",
@@ -381,7 +381,7 @@
       "science",
       "agriculture"
     ],
-    "importance": 4
+    "importance": 16
   },
   {
     "id": "avicenna",
@@ -393,7 +393,7 @@
     "tags": [
       "science"
     ],
-    "importance": 4
+    "importance": 14
   },
   {
     "id": "robert-koch",
@@ -406,7 +406,7 @@
       "science",
       "medicine"
     ],
-    "importance": 4
+    "importance": 15
   },
   {
     "id": "phineas-gage",
@@ -420,7 +420,7 @@
       "psychology",
       "neuroscience"
     ],
-    "importance": 4
+    "importance": 9
   },
   {
     "id": "bf-skinner",
@@ -433,7 +433,7 @@
       "psychology",
       "behaviorism"
     ],
-    "importance": 4
+    "importance": 12
   },
   {
     "id": "john-maynard-keynes",
@@ -449,14 +449,14 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 16
       }
     ],
     "tags": [
       "science",
       "economics"
     ],
-    "importance": 5
+    "importance": 15
   },
   {
     "id": "ibn-al-haytham",
@@ -470,7 +470,7 @@
       "mathematics",
       "physics"
     ],
-    "importance": 4
+    "importance": 13
   },
   {
     "id": "gregorian-calendar",
@@ -483,7 +483,7 @@
       "astronomy",
       "timekeeping"
     ],
-    "importance": 4
+    "importance": 14
   },
   {
     "id": "marine-chronometer",
@@ -497,7 +497,7 @@
       "navigation",
       "timekeeping"
     ],
-    "importance": 4
+    "importance": 11
   },
   {
     "id": "anaesthesia",
@@ -510,6 +510,6 @@
       "medicine",
       "surgery"
     ],
-    "importance": 4
+    "importance": 16
   }
 ]

@@ -20,7 +20,7 @@
       "war",
       "politics"
     ],
-    "importance": 5
+    "importance": 20
   },
   {
     "id": "world-war-2",
@@ -43,7 +43,7 @@
       "war",
       "politics"
     ],
-    "importance": 5
+    "importance": 20
   },
   {
     "id": "golden-age-piracy",
@@ -73,7 +73,7 @@
           "piracy",
           "maritime"
         ],
-        "importance": 3
+        "importance": 5
       },
       {
         "id": "william-kidd",
@@ -81,17 +81,6 @@
         "startDate": "1645",
         "endDate": "1701-05-23",
         "type": "Lifetime",
-        "children": [
-          {
-            "id": "kidd-execution",
-            "title": "Execution at Execution Dock, London",
-            "startDate": "1701-05-23",
-            "type": "Milestone",
-            "children": [],
-            "tags": [],
-            "importance": 3
-          }
-        ],
         "tags": [
           "piracy",
           "maritime"
@@ -121,7 +110,7 @@
         "type": "Period",
         "children": [],
         "tags": [],
-        "importance": 4
+        "importance": 5
       },
       {
         "id": "second-opium-war",
@@ -131,7 +120,7 @@
         "type": "Period",
         "children": [],
         "tags": [],
-        "importance": 4
+        "importance": 5
       }
     ],
     "tags": [
@@ -140,7 +129,7 @@
       "asia",
       "colonialism"
     ],
-    "importance": 4
+    "importance": 5
   },
   {
     "id": "vietnam-war",
@@ -155,6 +144,6 @@
       "asia",
       "cold-war"
     ],
-    "importance": 4
+    "importance": 5
   }
 ]
