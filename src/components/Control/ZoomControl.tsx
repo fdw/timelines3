@@ -18,7 +18,7 @@ export function ZoomControl(): ReactElement {
       >
         -
       </button>
-      <span style={{ display: 'inline-flex', alignItems: 'center' }}>{Math.floor(zoomFactor)}</span>
+      <span style={{ display: 'inline-flex', alignItems: 'center' }}>{Math.floor(100 * zoomFactor)} years</span>
       <button
         style={{
           padding: '4px 8px',

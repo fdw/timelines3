@@ -3,12 +3,14 @@ import { useDataSets } from './useDataSets'
 import { useDataSetsIndex } from './useDataSetsIndex'
 import type { TimelineEntity } from '../../models/TimelineEntity'
 import dayjs from 'dayjs'
+import { useZoomFactor } from '../zoom/useScale'
 
 export function useEntities(): { data: TimelineEntity[]; isLoading: boolean } {
   const selectedDataSetIds = useDataSets()
   const dataSetsIndex = useDataSetsIndex()
+  const zoomFactor = useZoomFactor()
 
-  return useQueries({
+  const allEntities = useQueries({
     queries: Array.from(selectedDataSetIds).map((id) => ({
       queryKey: ['dataset', id],
       queryFn: async () => {
@@ -22,6 +24,11 @@ export function useEntities(): { data: TimelineEntity[]; isLoading: boolean } {
       isLoading: result.reduce((acc, cur) => acc || cur.isLoading, false),
     }),
   })
+
+  return {
+    ...allEntities,
+    data: allEntities.data.filter((entity) => entity.importance >= zoomFactor),
+  }
 }
 
 async function fetchDataSet(filename: string): Promise<TimelineEntityDto[]> {

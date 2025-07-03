@@ -7,7 +7,7 @@ export interface CommonTimelineEntity {
   title: string
   startDate: Dayjs
   tags: string[]
-  importance?: number
+  importance: number
 }
 
 export interface Milestone extends CommonTimelineEntity {
