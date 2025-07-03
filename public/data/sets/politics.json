@@ -18,7 +18,7 @@
     "type": "Milestone",
     "children": [],
     "tags": [],
-    "importance": 5
+    "importance": 20
   },
   {
     "id": "magna-carta",
@@ -31,7 +31,7 @@
       "medieval",
       "europe"
     ],
-    "importance": 5
+    "importance": 15
   },
   {
     "id": "bretton-woods",
@@ -45,7 +45,7 @@
       "politics",
       "modern"
     ],
-    "importance": 4
+    "importance": 15
   },
   {
     "id": "partition-of-india",
@@ -58,7 +58,7 @@
       "modern",
       "asia"
     ],
-    "importance": 4
+    "importance": 13
   },
   {
     "id": "medici-bank",
@@ -72,7 +72,7 @@
       "europe",
       "italy"
     ],
-    "importance": 4
+    "importance": 10
   },
   {
     "id": "lorenzo-medici",
@@ -88,7 +88,7 @@
       "italy",
       "art"
     ],
-    "importance": 4
+    "importance": 10
   },
   {
     "id": "henry-viii",
@@ -104,7 +104,7 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 13
       }
     ],
     "tags": [
@@ -115,7 +115,7 @@
       "england",
       "religion"
     ],
-    "importance": 5
+    "importance": 8
   },
   {
     "id": "mansa-musa",
@@ -132,7 +132,7 @@
         "type": "Period",
         "children": [],
         "tags": [],
-        "importance": 5
+        "importance": 7
       }
     ],
     "tags": [
@@ -142,6 +142,6 @@
       "africa",
       "mali"
     ],
-    "importance": 5
+    "importance": 4
   }
 ]

@@ -9,7 +9,7 @@
     "tags": [
       "architecture"
     ],
-    "importance": 18
+    "importance": 15
   },
   {
     "id": "frank-lloyd-wright",
@@ -21,7 +21,7 @@
     "tags": [
       "architecture"
     ],
-    "importance": 19
+    "importance": 18
   },
   {
     "id": "frank-gehry",
@@ -54,7 +54,7 @@
     "tags": [
       "architecture"
     ],
-    "importance": 17
+    "importance": 15
   },
   {
     "id": "ludwig-mies-van-der-rohe",
@@ -67,7 +67,7 @@
       "architecture",
       "design"
     ],
-    "importance": 17
+    "importance": 15
   },
   {
     "id": "zaha-hadid",
@@ -92,7 +92,7 @@
       "architecture",
       "design"
     ],
-    "importance": 16
+    "importance": 17
   },
   {
     "id": "filippo-brunelleschi",
@@ -104,6 +104,6 @@
     "tags": [
       "architecture"
     ],
-    "importance": 18
+    "importance": 17
   }
 ]

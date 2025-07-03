@@ -1,5 +1,28 @@
 [
   {
+    "id": "friedrich-hayek",
+    "title": "Friedrich Hayek",
+    "startDate": "1899-05-08",
+    "endDate": "1992-03-23",
+    "type": "Lifetime",
+    "children": [
+      {
+        "id": "road-to-serfdom",
+        "title": "The Road to Serfdom",
+        "startDate": "1944",
+        "type": "Milestone",
+        "children": [],
+        "tags": [],
+        "importance": 10
+      }
+    ],
+    "tags": [
+      "philosophy",
+      "economics"
+    ],
+    "importance": 16
+  },
+  {
     "id": "aristotle",
     "title": "Aristotélēs",
     "startDate": "-0384",
@@ -29,7 +52,7 @@
       "science",
       "philosophy"
     ],
-    "importance": 5
+    "importance": 17
   },
   {
     "id": "francis-bacon",
@@ -45,7 +68,7 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 17
+        "importance": 10
       }
     ],
     "tags": [
@@ -68,7 +91,7 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 14
+        "importance": 10
       },
       {
         "id": "meditations-on-first-philosophy",
@@ -77,13 +100,13 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 15
+        "importance": 10
       }
     ],
     "tags": [
       "philosophy"
     ],
-    "importance": 19
+    "importance": 17
   },
   {
     "id": "karl-popper",
@@ -99,7 +122,7 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 13
+        "importance": 10
       }
     ],
     "tags": [
@@ -122,7 +145,7 @@
         "type": "Milestone",
         "children": [],
         "tags": [],
-        "importance": 10
+        "importance": 7
       }
     ],
     "tags": [
