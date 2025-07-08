@@ -11,7 +11,7 @@ export function useScale(date: Dayjs): number {
   const { width, zoomFactor } = context
   const pixelsPerYear = width / (100 * zoomFactor)
 
-  return date.year() * pixelsPerYear
+  return date.year() * pixelsPerYear + 2000 * pixelsPerYear
 }
 
 export function useZoomFactor(): number {
@@ -21,13 +21,4 @@ export function useZoomFactor(): number {
   }
 
   return context.zoomFactor
-}
-
-export function useHeight(): number {
-  const context = useContext(ScaleContext)
-  if (context === undefined) {
-    throw new Error('useHeight must be used within a ScaleProvider')
-  }
-
-  return context.height
 }
