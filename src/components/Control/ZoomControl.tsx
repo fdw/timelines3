@@ -1,31 +1,23 @@
 import { type ReactElement } from 'react'
 import { useZoom } from '../../state/zoom/useZoom'
 import { useZoomFactor } from '../../state/zoom/useScale'
+import './ZoomControl.css'
 
 export function ZoomControl(): ReactElement {
   const { increaseZoom, decreaseZoom } = useZoom()
   const zoomFactor = useZoomFactor()
 
   return (
-    <div style={{ display: 'flex', gap: '8px' }}>
+    <div className="zoom-control">
       <button
+        className={zoomFactor <= 1 ? 'zoom-button zoom-button-disabled' : 'zoom-button'}
         disabled={zoomFactor <= 1}
-        style={{
-          padding: '4px 8px',
-          cursor: zoomFactor <= 1 ? 'not-allowed' : 'pointer',
-        }}
         onClick={decreaseZoom}
       >
         -
       </button>
-      <span style={{ display: 'inline-flex', alignItems: 'center' }}>{Math.floor(100 * zoomFactor)} years</span>
-      <button
-        style={{
-          padding: '4px 8px',
-          cursor: 'pointer',
-        }}
-        onClick={increaseZoom}
-      >
+      <div className="zoom-display">{Math.floor(100 * zoomFactor)} years</div>
+      <button className="zoom-button" onClick={increaseZoom}>
         +
       </button>
     </div>

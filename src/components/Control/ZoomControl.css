@@ -1,0 +1,18 @@
+.zoom-control {
+  display: flex;
+  gap: 8px;
+}
+
+.zoom-button {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.zoom-button-disabled {
+  cursor: not-allowed;
+}
+
+.zoom-display {
+  display: inline-flex;
+  align-items: center;
+}

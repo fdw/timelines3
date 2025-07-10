@@ -1,0 +1,59 @@
+.tag-selector {
+  position: relative;
+}
+
+.tag-selector-button {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.tag-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 100%;
+  transform: translateX(-100%);
+  width: calc(100vw - 40px);
+  max-width: 800px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tag-item {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+
+.tag-label {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.tag-label:disabled {
+  cursor: not-allowed;
+}
+
+.tag-checkbox {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.tag-checkbox:disabled {
+  cursor: not-allowed;
+}
