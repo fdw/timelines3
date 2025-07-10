@@ -1,38 +1,17 @@
-import { useQueries } from '@tanstack/react-query'
-import { useDataSets } from './useDataSets'
-import { useDataSetsIndex } from './useDataSetsIndex'
+import { useSuspenseQuery } from '@tanstack/react-query'
 import type { TimelineEntity } from '../../models/TimelineEntity'
 import dayjs from 'dayjs'
-import { useZoomFactor } from '../zoom/useScale'
 
-export function useEntities(): { data: TimelineEntity[]; isLoading: boolean } {
-  const selectedDataSetIds = useDataSets()
-  const dataSetsIndex = useDataSetsIndex()
-  const zoomFactor = useZoomFactor()
-
-  const allEntities = useQueries({
-    queries: Array.from(selectedDataSetIds).map((id) => ({
-      queryKey: ['dataset', id],
-      queryFn: async () => {
-        const filename = dataSetsIndex.find((ds) => ds.id === id)?.filename ?? '' //todo
-        return fetchDataSet(filename)
-      },
-      select: mapToEntity,
-    })),
-    combine: (result) => ({
-      data: [...new Set(result.flatMap((it) => it.data))].filter((it) => it !== undefined),
-      isLoading: result.reduce((acc, cur) => acc || cur.isLoading, false),
-    }),
-  })
-
-  return {
-    ...allEntities,
-    data: allEntities.data.filter((entity) => entity.importance >= zoomFactor),
-  }
+export function useEntities(): TimelineEntity[] {
+  return useSuspenseQuery({
+    queryKey: ['entities'],
+    queryFn: fetchEntities,
+    select: (data) => mapToEntity(data),
+  }).data
 }
 
-async function fetchDataSet(filename: string): Promise<TimelineEntityDto[]> {
-  const response = await fetch(`data/sets/${filename}`)
+async function fetchEntities(): Promise<TimelineEntityDto[]> {
+  const response = await fetch('data/merged-dataset.json')
   return await response.json()
 }
 

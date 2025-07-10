@@ -1,5 +1,5 @@
 import { type ReactElement } from 'react'
-import { DataSetSelector } from './DataSetSelector'
+import { TagSelector } from './TagSelector'
 import { ZoomControl } from './ZoomControl'
 
 export function UserControl(): ReactElement {
@@ -15,7 +15,7 @@ export function UserControl(): ReactElement {
         gap: 10,
       }}
     >
-      <DataSetSelector />
+      <TagSelector />
       <ZoomControl />
     </div>
   )

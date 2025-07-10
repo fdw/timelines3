@@ -1,24 +1,28 @@
-import { useMemo } from 'react'
 import type { ReactElement } from 'react'
+import { useMemo } from 'react'
 import type { Dayjs } from 'dayjs'
 import type { TimelineEntity } from '../../models/TimelineEntity'
 import { TimelineEntityItem } from './TimelineEntityItem'
 import { useEntities } from '../../state/data/useEntities'
+import { useTags } from '../../state/data/useTags.ts'
+import { useZoomFactor } from '../../state/zoom/useScale'
 
 export function EventsLayer(): ReactElement | null {
-  const { data: entities, isLoading } = useEntities()
+  const selectedTags = useTags()
+  const zoomFactor = useZoomFactor()
+  const entities = useEntities()
+
+  const filteredEntities = useMemo(() => {
+    return entities.filter((it) => it.tags.some((tag) => selectedTags.has(tag)) && it.importance > zoomFactor)
+  }, [entities, selectedTags, zoomFactor])
 
   const lanePositions = useMemo(() => {
-    return calculateLanePositions(entities)
-  }, [entities])
-
-  if (isLoading) {
-    return null
-  }
+    return calculateLanePositions(filteredEntities)
+  }, [filteredEntities])
 
   return (
     <g className="events-layer">
-      {entities.map((entity) => (
+      {filteredEntities.map((entity) => (
         <TimelineEntityItem entity={entity} key={entity.id} y={lanePositions[entity.id] || 0} />
       ))}
     </g>
@@ -63,6 +67,7 @@ function findAvailableLane(lanes: TimelineEntity[][], entity: TimelineEntity): n
   }
   return lanes.length
 }
+
 function isLaneAvailable(lane: TimelineEntity[], entity: TimelineEntity): boolean {
   if (lane.length === 0) {
     return true
