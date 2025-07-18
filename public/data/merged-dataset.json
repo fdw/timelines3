@@ -1,2413 +1,2178 @@
 [
   {
-    "id": "le-corbusier",
-    "title": "Le Corbusier",
-    "startDate": "1887-10-06",
-    "endDate": "1965-08-27",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "architecture"
-    ],
-    "importance": 15
+    "title": "Neolithic Revolution",
+    "startDate": "-010000-01-01",
+    "endDate": "-002000-01-01",
+    "type": "Period",
+    "tags": ["technology", "r1t2"],
+    "importance": 20,
+    "children": []
   },
   {
-    "id": "frank-lloyd-wright",
-    "title": "Frank Lloyd Wright",
-    "startDate": "1867-06-08",
-    "endDate": "1959-04-09",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "architecture"
-    ],
-    "importance": 18
-  },
-  {
-    "id": "frank-gehry",
-    "title": "Frank Gehry",
-    "startDate": "1929-02-28",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "architecture"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "antoni-gaudi",
-    "title": "Antoni Gaudí",
-    "startDate": "1852-06-25",
-    "endDate": "1926-06-10",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "sagrada-familia-construction-start",
-        "title": "Start of the construction of the Sagrada Família",
-        "startDate": "1882-03-19",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "architecture"
-        ],
-        "importance": 16
-      }
-    ],
-    "tags": [
-      "architecture"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "ludwig-mies-van-der-rohe",
-    "title": "Ludwig Mies van der Rohe",
-    "startDate": "1886-03-27",
-    "endDate": "1969-08-17",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "architecture",
-      "design"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "zaha-hadid",
-    "title": "Zaha Hadid",
-    "startDate": "1950-10-31",
-    "endDate": "2016-03-31",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "architecture"
-    ],
-    "importance": 14
-  },
-  {
-    "id": "walter-gropius",
-    "title": "Walter Gropius",
-    "startDate": "1883-05-18",
-    "endDate": "1969-07-05",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "architecture",
-      "design"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "filippo-brunelleschi",
-    "title": "Filippo Brunelleschi",
-    "startDate": "1377",
-    "endDate": "1446-04-15",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "architecture"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "leonardo-da-vinci",
-    "title": "Leonardo da Vinci",
-    "startDate": "1452-04-15",
-    "endDate": "1519-05-02",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "mona-lisa",
-        "title": "Mona Lisa",
-        "startDate": "1503",
-        "endDate": "1519",
-        "type": "Period",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 19
-      },
-      {
-        "id": "the-last-supper",
-        "title": "The Last Supper",
-        "startDate": "1495",
-        "endDate": "1498",
-        "type": "Period",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 18
-      }
-    ],
-    "tags": [
-      "art",
-      "renaissance",
-      "science"
-    ],
+    "title": "Invention of Writing",
+    "startDate": "-003400-01-01",
+    "type": "Milestone",
+    "tags": ["technology", "r1t2"],
     "importance": 20
   },
   {
-    "id": "michelangelo",
-    "title": "Michelangelo",
-    "startDate": "1475-03-06",
-    "endDate": "1564-02-18",
+    "title": "Buddha",
+    "startDate": "-000563-01-01",
+    "endDate": "-000483-01-01",
     "type": "Lifetime",
-    "children": [
-      {
-        "id": "sistine-chapel-ceiling",
-        "title": "Sistine Chapel Ceiling",
-        "startDate": "1508",
-        "endDate": "1512",
-        "type": "Period",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 19
-      },
-      {
-        "id": "david-sculpture",
-        "title": "David",
-        "startDate": "1501",
-        "endDate": "1504",
-        "type": "Period",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 18
-      }
-    ],
-    "tags": [
-      "art",
-      "renaissance"
-    ],
-    "importance": 20
+    "tags": ["religion", "philosophy", "r1t2"],
+    "importance": 19,
+    "children": []
   },
   {
-    "id": "raphael",
-    "title": "Raphael",
-    "startDate": "1483-04-01",
-    "endDate": "1520-04-06",
+    "title": "Confucius",
+    "startDate": "-000551-01-01",
+    "endDate": "-000479-01-01",
     "type": "Lifetime",
-    "children": [
-      {
-        "id": "school-of-athens",
-        "title": "The School of Athens",
-        "startDate": "1509",
-        "endDate": "1511",
-        "type": "Period",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 17
-      },
-      {
-        "id": "sistine-madonna",
-        "title": "Sistine Madonna",
-        "startDate": "1512",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 16
-      }
-    ],
-    "tags": [
-      "art",
-      "renaissance"
-    ],
-    "importance": 18
+    "tags": ["philosophy", "r1t2"],
+    "importance": 18,
+    "children": []
   },
   {
-    "id": "titian",
-    "title": "Titian",
-    "startDate": "1488",
-    "endDate": "1576-08-27",
+    "title": "Alexander the Great",
+    "startDate": "-000356-01-01",
+    "endDate": "-000323-01-01",
     "type": "Lifetime",
-    "children": [
-      {
-        "id": "assumption-of-the-virgin",
-        "title": "Assumption of the Virgin",
-        "startDate": "1516",
-        "endDate": "1518",
-        "type": "Period",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 16
-      }
-    ],
-    "tags": [
-      "art",
-      "renaissance"
-    ],
-    "importance": 17
+    "tags": ["war", "politics", "r1t2"],
+    "importance": 18,
+    "children": []
   },
   {
-    "id": "vincent-van-gogh",
-    "title": "Vincent van Gogh",
-    "startDate": "1853-03-30",
-    "endDate": "1890-07-29",
+    "title": "Ashoka",
+    "startDate": "-000304-01-01",
+    "endDate": "-000232-01-01",
     "type": "Lifetime",
-    "children": [
-      {
-        "id": "starry-night",
-        "title": "The Starry Night",
-        "startDate": "1889-06",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 19
-      },
-      {
-        "id": "sunflowers",
-        "title": "Sunflowers",
-        "startDate": "1888",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 18
-      }
-    ],
-    "tags": [
-      "art"
-    ],
-    "importance": 20
+    "tags": ["politics", "religion", "r1t2"],
+    "importance": 17,
+    "children": []
   },
   {
-    "id": "johannes-vermeer",
-    "title": "Johannes Vermeer",
-    "startDate": "1632-10-01",
-    "endDate": "1675-12-15",
+    "title": "Qin Shi Huang",
+    "startDate": "-000259-01-01",
+    "endDate": "-000210-01-01",
     "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 11
+    "tags": ["politics", "r1t2"],
+    "importance": 17,
+    "children": []
   },
   {
-    "id": "jan-van-eyck",
-    "title": "Jan van Eyck",
-    "startDate": "1390",
-    "endDate": "1441-07-09",
+    "title": "Julius Caesar",
+    "startDate": "-000100-07-12",
+    "endDate": "-000044-03-15",
     "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 11
+    "tags": ["politics"],
+    "importance": 5
   },
   {
-    "id": "rembrandt",
-    "title": "Rembrandt",
-    "startDate": "1606-07-15",
-    "endDate": "1669-10-04",
+    "title": "Jesus Christ",
+    "startDate": "-000004-01-01",
+    "endDate": "0030-01-01",
     "type": "Lifetime",
-    "children": [
-      {
-        "id": "night-watch",
-        "title": "The Night Watch",
-        "startDate": "1642",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 14
-      }
-    ],
-    "tags": [
-      "art"
-    ],
-    "importance": 15
+    "tags": ["religion", "r1t2"],
+    "importance": 20,
+    "children": []
   },
   {
-    "id": "francisco-goya",
-    "title": "Francisco Goya",
-    "startDate": "1746-03-30",
-    "endDate": "1828-04-16",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 11
-  },
-  {
-    "id": "sandro-botticelli",
-    "title": "Sandro Botticelli",
-    "startDate": "1445",
-    "endDate": "1510-05-17",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "birth-of-venus",
-        "title": "The Birth of Venus",
-        "startDate": "1484",
-        "endDate": "1486",
-        "type": "Period",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 14
-      }
-    ],
-    "tags": [
-      "art",
-      "renaissance"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "diego-velazquez",
-    "title": "Diego Velázquez",
-    "startDate": "1599-06-06",
-    "endDate": "1660-08-06",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 13
-  },
-  {
-    "id": "jmw-turner",
-    "title": "J.M.W. Turner",
-    "startDate": "1775-04-23",
-    "endDate": "1851-12-19",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 13
-  },
-  {
-    "id": "paul-cezanne",
-    "title": "Paul Cézanne",
-    "startDate": "1839-01-19",
-    "endDate": "1906-10-22",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "mont-sainte-victoire",
-        "title": "Mont Sainte-Victoire series",
-        "startDate": "1882",
-        "endDate": "1906",
-        "type": "Period",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 14
-      }
-    ],
-    "tags": [
-      "art"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "claude-monet",
-    "title": "Claude Monet",
-    "startDate": "1840-11-14",
-    "endDate": "1926-12-05",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "water-lilies",
-        "title": "Water Lilies series",
-        "startDate": "1914",
-        "endDate": "1926",
-        "type": "Period",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 17
-      },
-      {
-        "id": "impression-sunrise",
-        "title": "Impression, Sunrise",
-        "startDate": "1872",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 16
-      }
-    ],
-    "tags": [
-      "art"
-    ],
-    "importance": 18
-  },
-  {
-    "id": "caravaggio",
-    "title": "Caravaggio",
-    "startDate": "1571-09-28",
-    "endDate": "1610-07-18",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 12
-  },
-  {
-    "id": "rogier-van-der-weyden",
-    "title": "Rogier van der Weyden",
-    "startDate": "1399",
-    "endDate": "1464-06-18",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 10
-  },
-  {
-    "id": "piero-della-francesca",
-    "title": "Piero della Francesca",
-    "startDate": "1415",
-    "endDate": "1492-10-12",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 10
-  },
-  {
-    "id": "pieter-bruegel-the-elder",
-    "title": "Pieter Bruegel the Elder",
-    "startDate": "1525",
-    "endDate": "1569-09-09",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 13
-  },
-  {
-    "id": "edouard-manet",
-    "title": "Édouard Manet",
-    "startDate": "1832-01-23",
-    "endDate": "1883-04-30",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "luncheon-on-the-grass",
-        "title": "Le Déjeuner sur l'herbe",
-        "startDate": "1863",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 15
-      }
-    ],
-    "tags": [
-      "art"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "seurat",
-    "title": "Seurat",
-    "startDate": "1859-12-02",
-    "endDate": "1891-03-29",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 14
-  },
-  {
-    "id": "henri-matisse",
-    "title": "Henri Matisse",
-    "startDate": "1869-12-31",
-    "endDate": "1954-11-03",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "the-dance",
-        "title": "The Dance",
-        "startDate": "1909",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 14
-      }
-    ],
-    "tags": [
-      "art"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "piet-mondrian",
-    "title": "Piet Mondrian",
-    "startDate": "1872-03-07",
-    "endDate": "1944-02-01",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "composition-with-red-blue-yellow",
-        "title": "Composition with Red, Blue, and Yellow",
-        "startDate": "1930",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 16
-      }
-    ],
-    "tags": [
-      "art"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "georgia-okeeffe",
-    "title": "Georgia O'Keeffe",
-    "startDate": "1887-11-15",
-    "endDate": "1986-03-06",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 12
-  },
-  {
-    "id": "jackson-pollock",
-    "title": "Jackson Pollock",
-    "startDate": "1912-01-28",
-    "endDate": "1956-08-11",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "number-5",
-        "title": "No. 5, 1948",
-        "startDate": "1948",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 16
-      }
-    ],
-    "tags": [
-      "art"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "andy-warhol",
-    "title": "Andy Warhol",
-    "startDate": "1928-08-06",
-    "endDate": "1987-02-22",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "campbell-soup-cans",
-        "title": "Campbell's Soup Cans",
-        "startDate": "1962",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 16
-      }
-    ],
-    "tags": [
-      "art"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "artemisia-gentileschi",
-    "title": "Artemisia Gentileschi",
-    "startDate": "1593-07-08",
-    "endDate": "1656",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 10
-  },
-  {
-    "id": "peter-paul-rubens",
-    "title": "Peter Paul Rubens",
-    "startDate": "1577-06-28",
-    "endDate": "1640-05-30",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 14
-  },
-  {
-    "id": "alphonse-mucha",
-    "title": "Alphonse Mucha",
-    "startDate": "1860-07-24",
-    "endDate": "1939-07-04",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "gustav-klimt",
-    "title": "Gustav Klimt",
-    "startDate": "1862-07-14",
-    "endDate": "1918-02-06",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "the-kiss",
-        "title": "The Kiss",
-        "startDate": "1907",
-        "endDate": "1908",
-        "type": "Period",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 14
-      }
-    ],
-    "tags": [
-      "art",
-      "secession"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "vasiliy-kandinskiy",
-    "title": "Vasiliy Kandinskiy",
-    "startDate": "1866-12-16",
-    "endDate": "1944-12-13",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "composition-viii",
-        "title": "Composition VIII",
-        "startDate": "1923",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 14
-      }
-    ],
-    "tags": [
-      "art"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "antoine-watteau",
-    "title": "Antoine Watteau",
-    "startDate": "1684-10-10",
-    "endDate": "1721-07-18",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "art"
-    ],
-    "importance": 10
-  },
-  {
-    "id": "hokusai",
-    "title": "Katsushika Hokusai",
-    "startDate": "1760-10-31",
-    "endDate": "1849-05-10",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "thirty-six-views-of-mount-fuji",
-        "title": "Thirty-six Views of Mount Fuji",
-        "startDate": "1830",
-        "endDate": "1832",
-        "type": "Period",
-        "children": [],
-        "tags": [
-          "art"
-        ],
-        "importance": 5
-      }
-    ],
-    "tags": [
-      "art",
-      "ukiyo-e"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "dieter-rams",
-    "title": "Dieter Rams",
-    "startDate": "1932-05-20",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "design"
-    ],
-    "importance": 12
-  },
-  {
-    "id": "coco-chanel",
-    "title": "Coco Chanel",
-    "startDate": "1883-08-19",
-    "endDate": "1971-01-10",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "design",
-      "fashion"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "claude-shannon",
-    "title": "Claude Shannon",
-    "startDate": "1916-04-30",
-    "endDate": "2001-02-24",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "information technology",
-      "physics"
-    ],
-    "importance": 7
-  },
-  {
-    "id": "john-von-neumann",
-    "title": "John von Neumann",
-    "startDate": "1903-12-28",
-    "endDate": "1957-02-08",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "mathematics",
-      "game theory",
-      "information technology"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "alan-turing",
-    "title": "Alan Turing",
-    "startDate": "1912-06-23",
-    "endDate": "1954-06-07",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "first-bombe-installed",
-        "title": "First bombe installed",
-        "startDate": "1940-03-18",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "information technology"
-        ],
-        "importance": 4
-      }
-    ],
-    "tags": [
-      "science",
-      "information technology"
-    ],
-    "importance": 12
-  },
-  {
-    "id": "friedrich-hayek",
-    "title": "Friedrich Hayek",
-    "startDate": "1899-05-08",
-    "endDate": "1992-03-23",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "road-to-serfdom",
-        "title": "The Road to Serfdom",
-        "startDate": "1944",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "philosophy"
-        ],
-        "importance": 10
-      }
-    ],
-    "tags": [
-      "philosophy",
-      "economics"
-    ],
-    "importance": 16
-  },
-  {
-    "id": "aristotle",
     "title": "Aristotélēs",
     "startDate": "-0384",
     "endDate": "-0322",
     "type": "Lifetime",
     "children": [
       {
-        "id": "nicomachean-ethics",
         "title": "Nicomachean Ethics",
         "startDate": "-0350",
         "type": "Milestone",
         "children": [],
-        "tags": [
-          "philosophy"
-        ],
+        "tags": ["philosophy"],
         "importance": 5
       },
       {
-        "id": "politics-aristotle",
         "title": "Politics",
         "startDate": "-0350",
         "type": "Milestone",
         "children": [],
-        "tags": [
-          "philosophy"
-        ],
+        "tags": ["philosophy"],
         "importance": 5
       }
     ],
-    "tags": [
-      "science",
-      "philosophy"
-    ],
+    "tags": ["science", "philosophy"],
     "importance": 17
   },
   {
-    "id": "francis-bacon",
-    "title": "Francis Bacon",
-    "startDate": "1561-01-22",
-    "endDate": "1626-04-09",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "novum-organum",
-        "title": "Novum Organum",
-        "startDate": "1620",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "philosophy"
-        ],
-        "importance": 10
-      }
-    ],
-    "tags": [
-      "science",
-      "philosophy"
-    ],
-    "importance": 18
-  },
-  {
-    "id": "rene-descartes",
-    "title": "René Descartes",
-    "startDate": "1596-03-31",
-    "endDate": "1650-02-11",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "discourse-on-method",
-        "title": "Discourse on the Method",
-        "startDate": "1637",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "philosophy"
-        ],
-        "importance": 10
-      },
-      {
-        "id": "meditations-on-first-philosophy",
-        "title": "Meditations on First Philosophy",
-        "startDate": "1641",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "philosophy"
-        ],
-        "importance": 10
-      }
-    ],
-    "tags": [
-      "philosophy"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "karl-popper",
-    "title": "Karl Popper",
-    "startDate": "1902-07-28",
-    "endDate": "1994-09-17",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "logic-of-scientific-discovery",
-        "title": "The Logic of Scientific Discovery",
-        "startDate": "1934",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "philosophy"
-        ],
-        "importance": 10
-      }
-    ],
-    "tags": [
-      "philosophy",
-      "science"
-    ],
-    "importance": 14
-  },
-  {
-    "id": "blaise-pascal",
-    "title": "Blaise Pascal",
-    "startDate": "1623-06-19",
-    "endDate": "1662-08-19",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "pensees",
-        "title": "Pensées",
-        "startDate": "1670",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "philosophy"
-        ],
-        "importance": 7
-      }
-    ],
-    "tags": [
-      "philosophy"
-    ],
-    "importance": 12
-  },
-  {
-    "id": "martin-luther",
-    "title": "Martin Luther",
-    "startDate": "1483-11-10",
-    "endDate": "1546-02-18",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "ninety-five-theses",
-        "title": "Ninety-five Theses",
-        "startDate": "1517-10-31",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "philosophy"
-        ],
-        "importance": 19
-      }
-    ],
-    "tags": [
-      "philosophy",
-      "religion"
-    ],
-    "importance": 18
-  },
-  {
-    "id": "julius-caesar",
-    "title": "Julius Caesar",
-    "startDate": "-000100-07-12",
-    "endDate": "-000044-03-15",
-    "type": "Lifetime",
-    "tags": [
-      "politics",
-      "ancient rome"
-    ],
-    "importance": 5
-  },
-  {
-    "id": "fall-of-berlin-wall",
-    "title": "Fall of the Berlin Wall",
-    "startDate": "1989-11-09",
-    "type": "Milestone",
-    "children": [],
-    "tags": [
-      "politics",
-      "r1t2"
-    ],
-    "importance": 18
-  },
-  {
-    "id": "magna-carta",
-    "title": "Magna Carta",
-    "startDate": "1215-06-15",
-    "type": "Milestone",
-    "children": [],
-    "tags": [
-      "politics"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "bretton-woods",
-    "title": "Bretton Woods Conference",
-    "startDate": "1944-07-01",
-    "endDate": "1944-07-22",
-    "type": "Period",
-    "children": [],
-    "tags": [
-      "economics",
-      "politics"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "partition-of-india",
-    "title": "Partition of India",
-    "startDate": "1947-08-15",
-    "type": "Milestone",
-    "children": [],
-    "tags": [
-      "politics"
-    ],
-    "importance": 13
-  },
-  {
-    "id": "medici-bank",
-    "title": "Founding of the Medici Bank",
-    "startDate": "1397",
-    "type": "Milestone",
-    "children": [],
-    "tags": [
-      "economics",
-      "renaissance",
-      "politics"
-    ],
-    "importance": 10
-  },
-  {
-    "id": "lorenzo-medici",
-    "title": "Lorenzo de' Medici (il Magnifico)",
-    "startDate": "1449-01-01",
-    "endDate": "1492-04-08",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "politics",
-      "renaissance",
-      "art"
-    ],
-    "importance": 10
-  },
-  {
-    "id": "henry-viii",
-    "title": "Henry VIII",
-    "startDate": "1491-06-28",
-    "endDate": "1547-01-28",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "english-reformation",
-        "title": "English Reformation",
-        "startDate": "1534",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "politics"
-        ],
-        "importance": 13
-      }
-    ],
-    "tags": [
-      "politics",
-      "monarchy",
-      "renaissance",
-      "religion"
-    ],
-    "importance": 8
-  },
-  {
-    "id": "mansa-musa",
-    "title": "Mansa Musa I",
-    "startDate": "1280",
-    "endDate": "1337",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "mansa-musa-hajj",
-        "title": "Pilgrimage to Mecca",
-        "startDate": "1324",
-        "endDate": "1325",
-        "type": "Period",
-        "children": [],
-        "tags": [
-          "politics"
-        ],
-        "importance": 7
-      }
-    ],
-    "tags": [
-      "politics",
-      "monarchy"
-    ],
-    "importance": 4
-  },
-  {
-    "id": "neolithic-revolution",
-    "title": "Neolithic Revolution",
-    "startDate": "-010000-01-01",
-    "endDate": "-002000-01-01",
-    "type": "Period",
-    "tags": [
-      "agriculture",
-      "technology",
-      "society",
-      "r1t2"
-    ],
-    "importance": 20,
-    "children": []
-  },
-  {
-    "id": "invention-of-writing",
-    "title": "Invention of Writing",
-    "startDate": "-003400-01-01",
-    "type": "Milestone",
-    "tags": [
-      "technology",
-      "communication",
-      "r1t2"
-    ],
-    "importance": 20
-  },
-  {
-    "id": "buddha",
-    "title": "Buddha",
-    "startDate": "-000563-01-01",
-    "endDate": "-000483-01-01",
-    "type": "Lifetime",
-    "tags": [
-      "religion",
-      "philosophy",
-      "r1t2"
-    ],
-    "importance": 19,
-    "children": []
-  },
-  {
-    "id": "confucius",
-    "title": "Confucius",
-    "startDate": "-000551-01-01",
-    "endDate": "-000479-01-01",
-    "type": "Lifetime",
-    "tags": [
-      "philosophy",
-      "r1t2"
-    ],
-    "importance": 18,
-    "children": []
-  },
-  {
-    "id": "alexander-the-great",
-    "title": "Alexander the Great",
-    "startDate": "-000356-01-01",
-    "endDate": "-000323-01-01",
-    "type": "Lifetime",
-    "tags": [
-      "military",
-      "politics",
-      "r1t2"
-    ],
-    "importance": 18,
-    "children": []
-  },
-  {
-    "id": "qin-shi-huang",
-    "title": "Qin Shi Huang",
-    "startDate": "-000259-01-01",
-    "endDate": "-000210-01-01",
-    "type": "Lifetime",
-    "tags": [
-      "politics",
-      "r1t2"
-    ],
-    "importance": 17,
-    "children": []
-  },
-  {
-    "id": "jesus-christ",
-    "title": "Jesus Christ",
-    "startDate": "-000004-01-01",
-    "endDate": "0030-01-01",
-    "type": "Lifetime",
-    "tags": [
-      "religion",
-      "r1t2"
-    ],
-    "importance": 20,
-    "children": []
-  },
-  {
-    "id": "muhammad",
     "title": "Muhammad",
     "startDate": "0570-01-01",
     "endDate": "0632-01-01",
     "type": "Lifetime",
-    "tags": [
-      "religion",
-      "r1t2"
-    ],
+    "tags": ["religion", "r1t2"],
     "importance": 20,
     "children": []
   },
   {
-    "id": "gutenberg-printing-press",
-    "title": "Gutenberg Printing Press",
-    "startDate": "1440-01-01",
-    "type": "Milestone",
-    "tags": [
-      "technology",
-      "communication",
-      "r1t2"
-    ],
-    "importance": 19
-  },
-  {
-    "id": "columbian-exchange",
-    "title": "Columbian Exchange",
-    "startDate": "1492-10-12",
-    "endDate": "1600-01-01",
-    "type": "Period",
-    "tags": [
-      "exploration",
-      "biology",
-      "r1t2"
-    ],
-    "importance": 18,
-    "children": []
-  },
-  {
-    "id": "scientific-revolution",
-    "title": "Scientific Revolution",
-    "startDate": "1543-01-01",
-    "endDate": "1687-01-01",
-    "type": "Period",
-    "tags": [
-      "science",
-      "r1t2"
-    ],
-    "importance": 19,
-    "children": [
-      {
-        "id": "copernicus",
-        "title": "Copernicus",
-        "startDate": "1473-01-01",
-        "endDate": "1543-01-01",
-        "type": "Lifetime",
-        "tags": [
-          "science",
-          "astronomy",
-          "r1t2"
-        ],
-        "importance": 17
-      },
-      {
-        "id": "newton",
-        "title": "Isaac Newton",
-        "startDate": "1643-01-01",
-        "endDate": "1727-01-01",
-        "type": "Lifetime",
-        "tags": [
-          "physics",
-          "mathematics",
-          "r1t2"
-        ],
-        "importance": 19
-      }
-    ]
-  },
-  {
-    "id": "industrial-revolution",
-    "title": "Industrial Revolution",
-    "startDate": "1760-01-01",
-    "endDate": "1840-01-01",
-    "type": "Period",
-    "tags": [
-      "technology",
-      "economics",
-      "r1t2"
-    ],
-    "importance": 19,
-    "children": [
-      {
-        "id": "steam-engine",
-        "title": "Watt Steam Engine",
-        "startDate": "1776-01-01",
-        "type": "Milestone",
-        "tags": [
-          "technology",
-          "r1t2"
-        ],
-        "importance": 18
-      }
-    ]
-  },
-  {
-    "id": "darwin",
-    "title": "Charles Darwin",
-    "startDate": "1809-02-12",
-    "endDate": "1882-04-19",
-    "type": "Lifetime",
-    "tags": [
-      "biology",
-      "r1t2"
-    ],
-    "importance": 18,
-    "children": []
-  },
-  {
-    "id": "marx",
-    "title": "Karl Marx",
-    "startDate": "1818-05-05",
-    "endDate": "1883-03-14",
-    "type": "Lifetime",
-    "tags": [
-      "philosophy",
-      "economics",
-      "r1t2"
-    ],
-    "importance": 17,
-    "children": []
-  },
-  {
-    "id": "world-war-1",
-    "title": "World War I",
-    "startDate": "1914-07-28",
-    "endDate": "1918-11-11",
-    "type": "Period",
-    "tags": [
-      "war",
-      "r1t2",
-      "politics"
-    ],
-    "importance": 18,
-    "children": []
-  },
-  {
-    "id": "world-war-2",
-    "title": "World War II",
-    "startDate": "1939-09-01",
-    "endDate": "1945-09-02",
-    "type": "Period",
-    "tags": [
-      "war",
-      "r1t2",
-      "politics"
-    ],
-    "importance": 19,
-    "children": [
-      {
-        "id": "atomic-bomb",
-        "title": "Atomic Bomb",
-        "startDate": "1945-08-06",
-        "type": "Milestone",
-        "tags": [
-          "technology",
-          "war",
-          "r1t2"
-        ],
-        "importance": 18
-      }
-    ]
-  },
-  {
-    "id": "internet",
-    "title": "Internet",
-    "startDate": "1969-10-29",
-    "type": "Milestone",
-    "tags": [
-      "technology",
-      "r1t2"
-    ],
-    "importance": 19
-  },
-  {
-    "id": "moon-landing",
-    "title": "Moon Landing",
-    "startDate": "1969-07-20",
-    "type": "Milestone",
-    "tags": [
-      "technology",
-      "exploration",
-      "r1t2"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "covid-19-pandemic",
-    "title": "COVID-19 Pandemic",
-    "startDate": "2019-12-01",
-    "endDate": "2023-05-05",
-    "type": "Period",
-    "tags": [
-      "medicine",
-      "society",
-      "r1t2"
-    ],
-    "importance": 16,
-    "children": []
-  },
-  {
-    "id": "ashoka",
-    "title": "Ashoka",
-    "startDate": "-000304-01-01",
-    "endDate": "-000232-01-01",
-    "type": "Lifetime",
-    "tags": [
-      "politics",
-      "religion",
-      "r1t2"
-    ],
-    "importance": 17,
-    "children": []
-  },
-  {
-    "id": "islamic-golden-age",
     "title": "Islamic Golden Age",
     "startDate": "0750-01-01",
     "endDate": "1258-01-01",
     "type": "Period",
-    "tags": [
-      "science",
-      "mathematics",
-      "medicine",
-      "r1t2"
-    ],
+    "tags": ["science", "mathematics", "medicine", "r1t2"],
     "importance": 18,
     "children": [
       {
-        "id": "ibn-sina",
         "title": "Ibn Sina (Avicenna)",
         "startDate": "0980-01-01",
         "endDate": "1037-01-01",
         "type": "Lifetime",
-        "tags": [
-          "medicine",
-          "philosophy",
-          "r1t2"
-        ],
+        "tags": ["medicine", "philosophy", "r1t2"],
         "importance": 16
       }
     ]
   },
   {
-    "id": "mongol-empire",
-    "title": "Mongol Empire",
-    "startDate": "1206-01-01",
-    "endDate": "1368-01-01",
-    "type": "Period",
-    "tags": [
-      "military",
-      "politics",
-      "r1t2"
-    ],
-    "importance": 18,
-    "children": []
-  },
-  {
-    "id": "renaissance",
-    "title": "Renaissance",
-    "startDate": "1300-01-01",
-    "endDate": "1600-01-01",
-    "type": "Period",
-    "tags": [
-      "art",
-      "science",
-      "r1t2"
-    ],
-    "importance": 17,
-    "children": [
-      {
-        "id": "leonardo-da-vinci",
-        "title": "Leonardo da Vinci",
-        "startDate": "1452-04-15",
-        "endDate": "1519-05-02",
-        "type": "Lifetime",
-        "tags": [
-          "art",
-          "science",
-          "r1t2"
-        ],
-        "importance": 16
-      }
-    ]
-  },
-  {
-    "id": "transatlantic-slave-trade",
-    "title": "Transatlantic Slave Trade",
-    "startDate": "1500-01-01",
-    "endDate": "1866-01-01",
-    "type": "Period",
-    "tags": [
-      "society",
-      "economics",
-      "r1t2"
-    ],
-    "importance": 19,
-    "children": []
-  },
-  {
-    "id": "enlightenment",
-    "title": "Enlightenment",
-    "startDate": "1685-01-01",
-    "endDate": "1815-01-01",
-    "type": "Period",
-    "tags": [
-      "philosophy",
-      "politics",
-      "r1t2"
-    ],
-    "importance": 18,
-    "children": [
-      {
-        "id": "voltaire",
-        "title": "Voltaire",
-        "startDate": "1694-11-21",
-        "endDate": "1778-05-30",
-        "type": "Lifetime",
-        "tags": [
-          "philosophy",
-          "r1t2"
-        ],
-        "importance": 15
-      }
-    ]
-  },
-  {
-    "id": "french-revolution",
-    "title": "French Revolution",
-    "startDate": "1789-05-05",
-    "endDate": "1799-11-09",
-    "type": "Period",
-    "tags": [
-      "politics",
-      "r1t2"
-    ],
-    "importance": 18,
-    "children": []
-  },
-  {
-    "id": "wright-brothers-flight",
-    "title": "Wright Brothers First Flight",
-    "startDate": "1903-12-17",
-    "type": "Milestone",
-    "tags": [
-      "technology",
-      "r1t2"
-    ],
-    "importance": 16
-  },
-  {
-    "id": "einstein",
-    "title": "Albert Einstein",
-    "startDate": "1879-03-14",
-    "endDate": "1955-04-18",
-    "type": "Lifetime",
-    "tags": [
-      "physics",
-      "r1t2"
-    ],
-    "importance": 19,
-    "children": []
-  },
-  {
-    "id": "gandhi",
-    "title": "Mahatma Gandhi",
-    "startDate": "1869-10-02",
-    "endDate": "1948-01-30",
-    "type": "Lifetime",
-    "tags": [
-      "politics",
-      "r1t2"
-    ],
-    "importance": 17,
-    "children": []
-  },
-  {
-    "id": "russian-revolution",
-    "title": "Russian Revolution",
-    "startDate": "1917-03-08",
-    "endDate": "1923-06-16",
-    "type": "Period",
-    "tags": [
-      "politics",
-      "r1t2"
-    ],
-    "importance": 17,
-    "children": []
-  },
-  {
-    "id": "great-depression",
-    "title": "Great Depression",
-    "startDate": "1929-10-29",
-    "endDate": "1939-01-01",
-    "type": "Period",
-    "tags": [
-      "economics",
-      "r1t2"
-    ],
-    "importance": 17,
-    "children": []
-  },
-  {
-    "id": "dna-structure-discovery",
-    "title": "DNA Structure Discovery",
-    "startDate": "1953-02-28",
-    "type": "Milestone",
-    "tags": [
-      "biology",
-      "r1t2"
-    ],
-    "importance": 18
-  },
-  {
-    "id": "civil-rights-movement",
-    "title": "Civil Rights Movement",
-    "startDate": "1954-01-01",
-    "endDate": "1968-01-01",
-    "type": "Period",
-    "tags": [
-      "society",
-      "politics",
-      "r1t2"
-    ],
-    "importance": 17,
-    "children": []
-  },
-  {
-    "id": "world-wide-web",
-    "title": "World Wide Web",
-    "startDate": "1989-03-12",
-    "type": "Milestone",
-    "tags": [
-      "technology",
-      "r1t2"
-    ],
-    "importance": 18
-  },
-  {
-    "id": "human-genome-project",
-    "title": "Human Genome Project",
-    "startDate": "1990-10-01",
-    "endDate": "2003-04-14",
-    "type": "Period",
-    "tags": [
-      "biology",
-      "r1t2"
-    ],
-    "importance": 16,
-    "children": []
-  },
-  {
-    "id": "9-11-attacks",
-    "title": "9/11 Attacks",
-    "startDate": "2001-09-11",
-    "type": "Milestone",
-    "tags": [
-      "politics",
-      "war",
-      "r1t2"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "crispr",
-    "title": "CRISPR Gene Editing",
-    "startDate": "2012-06-28",
-    "type": "Milestone",
-    "tags": [
-      "biology",
-      "r1t2"
-    ],
-    "importance": 16
-  },
-  {
-    "id": "black-death",
-    "title": "Black Death",
-    "startDate": "1346-01-01",
-    "endDate": "1353-01-01",
-    "type": "Period",
-    "tags": [
-      "medicine",
-      "society",
-      "r1t2"
-    ],
-    "importance": 19,
-    "children": []
-  },
-  {
-    "id": "galileo-galilei",
-    "title": "Galileo Galilei",
-    "startDate": "1564-02-15",
-    "endDate": "1642-08-01",
+    "title": "Ḥasan Ibn al-Haytham",
+    "startDate": "965",
+    "endDate": "1040",
     "type": "Lifetime",
     "children": [],
-    "tags": [
-      "science",
-      "physics"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "isaac-newton",
-    "title": "Isaac Newton",
-    "startDate": "1643-01-04",
-    "endDate": "1727-03-31",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "principia-mathematica",
-        "title": "Philosophiæ Naturalis Principia Mathematica",
-        "startDate": "1687-07-05",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "science"
-        ],
-        "importance": 20
-      }
-    ],
-    "tags": [
-      "science",
-      "physics",
-      "mathematics"
-    ],
-    "importance": 20
-  },
-  {
-    "id": "albert-einstein",
-    "title": "Albert Einstein",
-    "startDate": "1879-03-14",
-    "endDate": "1955-04-18",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "theory-of-relativity",
-        "title": "Theory of Relativity published",
-        "startDate": "1905-06-30",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "science"
-        ],
-        "importance": 20
-      }
-    ],
-    "tags": [
-      "science",
-      "physics"
-    ],
-    "importance": 20
-  },
-  {
-    "id": "nicolaus-copernicus",
-    "title": "Nicolaus Copernicus",
-    "startDate": "1473-02-19",
-    "endDate": "1543-05-24",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "physics"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "niels-bohr",
-    "title": "Niels Bohr",
-    "startDate": "1885-10-07",
-    "endDate": "1962-11-18",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "physics"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "charles-darwin",
-    "title": "Charles Darwin",
-    "startDate": "1809-02-12",
-    "endDate": "1882-04-19",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "biology"
-    ],
-    "importance": 19
-  },
-  {
-    "id": "stephen-hawking",
-    "title": "Stephen Hawking",
-    "startDate": "1941-01-08",
-    "endDate": "2018-03-14",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "physics"
-    ],
+    "tags": ["science", "mathematics", "physics"],
     "importance": 13
   },
   {
-    "id": "johannes-kepler",
-    "title": "Johannes Kepler",
-    "startDate": "1571-12-27",
-    "endDate": "1630-11-15",
+    "title": "Avicenna",
+    "startDate": "0980",
+    "endDate": "1037-06-22",
     "type": "Lifetime",
     "children": [],
-    "tags": [
-      "science",
-      "physics"
-    ],
-    "importance": 15
+    "tags": ["science"],
+    "importance": 14
   },
   {
-    "id": "gottfried-wilhelm-leibniz",
-    "title": "Gottfried Wilhelm Leibniz",
-    "startDate": "1646-07-01",
-    "endDate": "1716-11-14",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "mathematics"
-    ],
-    "importance": 12
-  },
-  {
-    "id": "marie-curie",
-    "title": "Marie Curie",
-    "startDate": "1867-11-07",
-    "endDate": "1934-07-04",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "physics",
-      "chemistry"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "louis-pasteur",
-    "title": "Louis Pasteur",
-    "startDate": "1822-12-27",
-    "endDate": "1895-09-28",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "germ-theory",
-        "title": "Germ Theory of Disease",
-        "startDate": "1862",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "science"
-        ],
-        "importance": 19
-      }
-    ],
-    "tags": [
-      "science",
-      "chemistry",
-      "medicine"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "gregor-mendel",
-    "title": "Gregor Mendel",
-    "startDate": "1822-07-20",
-    "endDate": "1884-01-06",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science"
-    ],
-    "importance": 13
-  },
-  {
-    "id": "hanaoka-seishu",
-    "title": "Hanaoka Seishū",
-    "startDate": "1760-10-23",
-    "endDate": "1835-11-21",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "medicine"
-    ],
-    "importance": 8
-  },
-  {
-    "id": "sigmund-freud",
-    "title": "Sigmund Freud",
-    "startDate": "1856-05-06",
-    "endDate": "1939-09-23",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "psychology"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "johannes-gutenberg",
-    "title": "Johannes Gutenberg",
-    "startDate": "1400",
-    "endDate": "1468-02-03",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "movable-type-printing-europe",
-        "title": "First movable type printing in Europe",
-        "startDate": "1450",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "science"
-        ],
-        "importance": 19
-      },
-      {
-        "id": "gutenberg-bible",
-        "title": "Gutenberg Bible",
-        "startDate": "1455-02-23",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "science"
-        ],
-        "importance": 18
-      }
-    ],
-    "tags": [
-      "science"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "bi-sheng",
     "title": "Bì Shēng",
     "startDate": "990",
     "endDate": "1051",
     "type": "Lifetime",
     "children": [
       {
-        "id": "movable-type-printing-china",
         "title": "First movable type printing in China",
         "startDate": "1040",
         "type": "Milestone",
         "children": [],
-        "tags": [
-          "science"
-        ],
+        "tags": ["science"],
         "importance": 15
       }
     ],
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "importance": 13
   },
   {
-    "id": "alexander-fleming",
-    "title": "Alexander Fleming",
-    "startDate": "1881-08-06",
-    "endDate": "1955-03-11",
+    "title": "Mongol Empire",
+    "startDate": "1206-01-01",
+    "endDate": "1368-01-01",
+    "type": "Period",
+    "tags": ["politics", "r1t2"],
+    "importance": 18,
+    "children": []
+  },
+  {
+    "title": "Magna Carta",
+    "startDate": "1215-06-15",
+    "type": "Milestone",
+    "children": [],
+    "tags": ["politics"],
+    "importance": 15
+  },
+  {
+    "title": "Dante Alighieri",
+    "startDate": "1265-05-01",
+    "endDate": "1321-09-14",
     "type": "Lifetime",
     "children": [
       {
-        "id": "penicillin-discovery",
-        "title": "Penicillin Discovery",
-        "startDate": "1928-09-28",
+        "title": "Divine Comedy",
+        "startDate": "1320",
         "type": "Milestone",
-        "children": [],
-        "tags": [
-          "science"
-        ],
-        "importance": 20
+        "tags": ["literature"],
+        "importance": 10
       }
     ],
-    "tags": [
-      "science",
-      "medicine"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "thomas-edison",
-    "title": "Thomas Alva Edison",
-    "startDate": "1847-02-11",
-    "endDate": "1931-10-18",
-    "type": "Lifetime",
-    "children": [
-      {
-        "id": "phonograph-invention",
-        "title": "Phonograph",
-        "startDate": "1877",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "science"
-        ],
-        "importance": 13
-      },
-      {
-        "id": "light-bulb-invention",
-        "title": "Incandescent Light Bulb",
-        "startDate": "1879-10-22",
-        "type": "Milestone",
-        "children": [],
-        "tags": [
-          "science"
-        ],
-        "importance": 18
-      }
-    ],
-    "tags": [
-      "science"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "nikola-tesla",
-    "title": "Nikola Tesla",
-    "startDate": "1856-07-10",
-    "endDate": "1943-01-07",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "leonhard-euler",
-    "title": "Leonhard Euler",
-    "startDate": "1707-04-15",
-    "endDate": "1783-09-18",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "mathematics"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "james-watt",
-    "title": "James Watt",
-    "startDate": "1736-01-19",
-    "endDate": "1819-08-25",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science"
-    ],
-    "importance": 17
-  },
-  {
-    "id": "edward-jenner",
-    "title": "Edward Jenner",
-    "startDate": "1749-05-17",
-    "endDate": "1823-01-26",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "medicine"
-    ],
-    "importance": 18
-  },
-  {
-    "id": "norman-borlaug",
-    "title": "Norman Borlaug",
-    "startDate": "1914-03-25",
-    "endDate": "2009-09-12",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "agriculture"
-    ],
-    "importance": 16
-  },
-  {
-    "id": "avicenna",
-    "title": "Avicenna",
-    "startDate": "0980",
-    "endDate": "1037-06-22",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science"
-    ],
-    "importance": 14
-  },
-  {
-    "id": "robert-koch",
-    "title": "Robert Koch",
-    "startDate": "1843-12-11",
-    "endDate": "1910-05-27",
-    "type": "Lifetime",
-    "children": [],
-    "tags": [
-      "science",
-      "medicine"
-    ],
-    "importance": 15
-  },
-  {
-    "id": "phineas-gage",
-    "title": "Phineas Gage",
-    "startDate": "1823-07-09",
-    "endDate": "1860-05-21",
-    "type": "Lifetime",
-    "tags": [
-      "science",
-      "medicine",
-      "psychology",
-      "neuroscience"
-    ],
-    "importance": 1
-  },
-  {
-    "id": "bf-skinner",
-    "title": "B. F. Skinner",
-    "startDate": "1904-03-20",
-    "endDate": "1990-08-18",
-    "type": "Lifetime",
-    "tags": [
-      "science",
-      "psychology",
-      "behaviorism"
-    ],
+    "tags": ["literature", "politics"],
     "importance": 10
   },
   {
-    "id": "john-maynard-keynes",
-    "title": "John Maynard Keynes",
-    "startDate": "1883-06-05",
-    "endDate": "1946-04-21",
+    "title": "Mansa Musa I",
+    "startDate": "1280",
+    "endDate": "1337",
     "type": "Lifetime",
     "children": [
       {
-        "id": "general-theory",
-        "title": "The General Theory of Employment, Interest and Money",
-        "startDate": "1936-02-04",
-        "type": "Milestone",
+        "title": "Pilgrimage to Mecca",
+        "startDate": "1324",
+        "endDate": "1325",
+        "type": "Period",
         "children": [],
-        "tags": [
-          "science"
-        ],
-        "importance": 16
+        "tags": ["politics"],
+        "importance": 7
       }
     ],
-    "tags": [
-      "science",
-      "economics"
+    "tags": ["politics", "monarchy"],
+    "importance": 4
+  },
+  {
+    "title": "Renaissance",
+    "startDate": "1300-01-01",
+    "endDate": "1600-01-01",
+    "type": "Period",
+    "tags": ["art", "science", "r1t2"],
+    "importance": 17,
+    "children": [
+      {
+        "title": "Filippo Brunelleschi",
+        "startDate": "1377",
+        "endDate": "1446-04-15",
+        "type": "Lifetime",
+        "children": [
+          {
+            "title": "Florence Cathedral Dome",
+            "startDate": "1420",
+            "endDate": "1436",
+            "type": "Period",
+            "tags": ["architecture"],
+            "importance": 17
+          }
+        ],
+        "tags": ["architecture", "art"],
+        "importance": 17
+      },
+      {
+        "title": "Jan van Eyck",
+        "startDate": "1390",
+        "endDate": "1441-07-09",
+        "type": "Lifetime",
+        "children": [
+          {
+            "title": "Arnolfini Portrait",
+            "startDate": "1434",
+            "type": "Milestone",
+            "tags": ["art"],
+            "importance": 16
+          }
+        ],
+        "tags": ["art"],
+        "importance": 11
+      },
+      {
+        "title": "Rogier van der Weyden",
+        "startDate": "1399",
+        "endDate": "1464-06-18",
+        "type": "Lifetime",
+        "children": [
+          {
+            "title": "The Descent from the Cross",
+            "startDate": "1435",
+            "type": "Milestone",
+            "tags": ["art"],
+            "importance": 15
+          }
+        ],
+        "tags": ["art"],
+        "importance": 10
+      },
+      {
+        "title": "Piero della Francesca",
+        "startDate": "1415",
+        "endDate": "1492-10-12",
+        "type": "Lifetime",
+        "children": [
+          {
+            "title": "The Flagellation of Christ",
+            "startDate": "1455",
+            "type": "Milestone",
+            "tags": ["art"],
+            "importance": 15
+          }
+        ],
+        "tags": ["art"],
+        "importance": 10
+      },
+      {
+        "title": "Sandro Botticelli",
+        "startDate": "1445",
+        "endDate": "1510-05-17",
+        "type": "Lifetime",
+        "children": [
+          {
+            "title": "Primavera",
+            "startDate": "1482",
+            "type": "Milestone",
+            "tags": ["art"],
+            "importance": 15
+          },
+          {
+            "title": "The Birth of Venus",
+            "startDate": "1484",
+            "endDate": "1486",
+            "type": "Period",
+            "children": [],
+            "tags": ["art"],
+            "importance": 14
+          }
+        ],
+        "tags": ["art"],
+        "importance": 15
+      },
+      {
+        "title": "Lorenzo de' Medici (il Magnifico)",
+        "startDate": "1449-01-01",
+        "endDate": "1492-04-08",
+        "type": "Lifetime",
+        "children": [],
+        "tags": ["politics", "art"],
+        "importance": 10
+      },
+      {
+        "title": "Leonardo da Vinci",
+        "startDate": "1452-04-15",
+        "endDate": "1519-05-02",
+        "type": "Lifetime",
+        "tags": ["art", "science", "r1t2"],
+        "importance": 16,
+        "children": [
+          {
+            "title": "The Last Supper",
+            "startDate": "1495",
+            "endDate": "1498",
+            "type": "Period",
+            "tags": ["art"],
+            "importance": 18
+          },
+          {
+            "title": "Mona Lisa",
+            "startDate": "1503",
+            "endDate": "1519",
+            "type": "Period",
+            "tags": ["art"],
+            "importance": 19
+          }
+        ]
+      },
+      {
+        "title": "Michelangelo",
+        "startDate": "1475-03-06",
+        "endDate": "1564-02-18",
+        "type": "Lifetime",
+        "children": [
+          {
+            "title": "David",
+            "startDate": "1501",
+            "endDate": "1504",
+            "type": "Period",
+            "children": [],
+            "tags": ["art"],
+            "importance": 18
+          },
+          {
+            "title": "Sistine Chapel Ceiling",
+            "startDate": "1508",
+            "endDate": "1512",
+            "type": "Period",
+            "children": [],
+            "tags": ["art"],
+            "importance": 19
+          }
+        ],
+        "tags": ["art"],
+        "importance": 20
+      },
+      {
+        "title": "Raphael",
+        "startDate": "1483-04-01",
+        "endDate": "1520-04-06",
+        "type": "Lifetime",
+        "children": [
+          {
+            "title": "The School of Athens",
+            "startDate": "1509",
+            "endDate": "1511",
+            "type": "Period",
+            "children": [],
+            "tags": ["art"],
+            "importance": 17
+          },
+          {
+            "title": "Sistine Madonna",
+            "startDate": "1512",
+            "type": "Milestone",
+            "children": [],
+            "tags": ["art"],
+            "importance": 16
+          }
+        ],
+        "tags": ["art"],
+        "importance": 18
+      },
+      {
+        "title": "Titian",
+        "startDate": "1488",
+        "endDate": "1576-08-27",
+        "type": "Lifetime",
+        "children": [
+          {
+            "title": "Assumption of the Virgin",
+            "startDate": "1516",
+            "endDate": "1518",
+            "type": "Period",
+            "children": [],
+            "tags": ["art"],
+            "importance": 16
+          },
+          {
+            "title": "Venus of Urbino",
+            "startDate": "1534",
+            "type": "Milestone",
+            "tags": ["art"],
+            "importance": 17
+          }
+        ],
+        "tags": ["art"],
+        "importance": 17
+      }
+    ]
+  },
+  {
+    "title": "Black Death",
+    "startDate": "1346-01-01",
+    "endDate": "1353-01-01",
+    "type": "Period",
+    "tags": ["medicine", "r1t2"],
+    "importance": 19,
+    "children": []
+  },
+  {
+    "title": "Founding of the Medici Bank",
+    "startDate": "1397",
+    "type": "Milestone",
+    "children": [],
+    "tags": ["economics", "politics"],
+    "importance": 10
+  },
+  {
+    "title": "Johannes Gutenberg",
+    "startDate": "1400",
+    "endDate": "1468-02-03",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "First movable type printing in Europe",
+        "startDate": "1450",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["science"],
+        "importance": 19
+      },
+      {
+        "title": "Gutenberg Bible",
+        "startDate": "1455-02-23",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["science"],
+        "importance": 18
+      }
     ],
+    "tags": ["science"],
     "importance": 15
   },
   {
-    "id": "ibn-al-haytham",
-    "title": "Ḥasan Ibn al-Haytham",
-    "startDate": "965",
-    "endDate": "1040",
+    "title": "Gutenberg Printing Press",
+    "startDate": "1440-01-01",
+    "type": "Milestone",
+    "tags": ["technology", "r1t2"],
+    "importance": 19
+  },
+  {
+    "title": "Nicolaus Copernicus",
+    "startDate": "1473-02-19",
+    "endDate": "1543-05-24",
     "type": "Lifetime",
     "children": [],
-    "tags": [
-      "science",
-      "mathematics",
-      "physics"
+    "tags": ["science", "physics"],
+    "importance": 17
+  },
+  {
+    "title": "Martin Luther",
+    "startDate": "1483-11-10",
+    "endDate": "1546-02-18",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Ninety-five Theses",
+        "startDate": "1517-10-31",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["philosophy"],
+        "importance": 19
+      }
     ],
+    "tags": ["philosophy", "religion"],
+    "importance": 18
+  },
+  {
+    "title": "Henry VIII",
+    "startDate": "1491-06-28",
+    "endDate": "1547-01-28",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "English Reformation",
+        "startDate": "1534",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["politics", "religion"],
+        "importance": 13
+      }
+    ],
+    "tags": ["politics", "monarchy", "religion"],
+    "importance": 8
+  },
+  {
+    "title": "Columbian Exchange",
+    "startDate": "1492-10-12",
+    "endDate": "1600-01-01",
+    "type": "Period",
+    "tags": ["exploration", "biology", "r1t2"],
+    "importance": 18,
+    "children": []
+  },
+  {
+    "title": "Transatlantic Slave Trade",
+    "startDate": "1500-01-01",
+    "endDate": "1866-01-01",
+    "type": "Period",
+    "tags": ["economics", "r1t2"],
+    "importance": 19,
+    "children": []
+  },
+  {
+    "title": "Pieter Bruegel the Elder",
+    "startDate": "1525",
+    "endDate": "1569-09-09",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["art"],
     "importance": 13
   },
   {
-    "id": "gregorian-calendar",
+    "title": "Scientific Revolution",
+    "startDate": "1543-01-01",
+    "endDate": "1687-01-01",
+    "type": "Period",
+    "tags": ["science", "r1t2"],
+    "importance": 19,
+    "children": [
+      {
+        "title": "Copernicus",
+        "startDate": "1473-01-01",
+        "endDate": "1543-01-01",
+        "type": "Lifetime",
+        "tags": ["science", "r1t2"],
+        "importance": 17
+      },
+      {
+        "title": "Isaac Newton",
+        "startDate": "1643-01-01",
+        "endDate": "1727-01-01",
+        "type": "Lifetime",
+        "tags": ["physics", "mathematics", "r1t2"],
+        "importance": 19
+      }
+    ]
+  },
+  {
+    "title": "Miguel de Cervantes",
+    "startDate": "1547-09-29",
+    "endDate": "1616-04-22",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Don Quixote (Part I)",
+        "startDate": "1605",
+        "type": "Milestone",
+        "tags": ["literature"],
+        "importance": 8
+      }
+    ],
+    "tags": ["literature"],
+    "importance": 8
+  },
+  {
+    "title": "Francis Bacon",
+    "startDate": "1561-01-22",
+    "endDate": "1626-04-09",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Novum Organum",
+        "startDate": "1620",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["philosophy"],
+        "importance": 10
+      }
+    ],
+    "tags": ["science", "philosophy"],
+    "importance": 18
+  },
+  {
+    "title": "Galileo Galilei",
+    "startDate": "1564-02-15",
+    "endDate": "1642-08-01",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "physics"],
+    "importance": 17
+  },
+  {
+    "title": "William Shakespeare",
+    "startDate": "1564-04-26",
+    "endDate": "1616-04-23",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Hamlet",
+        "startDate": "1600",
+        "type": "Milestone",
+        "tags": ["drama"],
+        "importance": 14
+      }
+    ],
+    "tags": ["literature"],
+    "importance": 14
+  },
+  {
+    "title": "Caravaggio",
+    "startDate": "1571-09-28",
+    "endDate": "1610-07-18",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["art"],
+    "importance": 12
+  },
+  {
+    "title": "Johannes Kepler",
+    "startDate": "1571-12-27",
+    "endDate": "1630-11-15",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "physics"],
+    "importance": 15
+  },
+  {
+    "title": "Peter Paul Rubens",
+    "startDate": "1577-06-28",
+    "endDate": "1640-05-30",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["art"],
+    "importance": 14
+  },
+  {
     "title": "Gregorian Calendar",
     "startDate": "1582-10-15",
     "type": "Milestone",
     "children": [],
-    "tags": [
-      "science",
-      "astronomy",
-      "timekeeping"
-    ],
+    "tags": ["science"],
     "importance": 14
   },
   {
-    "id": "marine-chronometer",
-    "title": "Marine Chronometer",
-    "startDate": "1761",
-    "type": "Milestone",
+    "title": "Artemisia Gentileschi",
+    "startDate": "1593-07-08",
+    "endDate": "1656",
+    "type": "Lifetime",
     "children": [],
-    "tags": [
-      "science",
-      "technology",
-      "exploration"
-    ],
-    "importance": 16
+    "tags": ["art"],
+    "importance": 10
   },
   {
-    "id": "anaesthesia",
-    "title": "First Public Demonstration of Anaesthesia",
-    "startDate": "1846-10-16",
-    "type": "Milestone",
-    "children": [],
-    "tags": [
-      "science",
-      "medicine",
-      "surgery"
+    "title": "René Descartes",
+    "startDate": "1596-03-31",
+    "endDate": "1650-02-11",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Discourse on the Method",
+        "startDate": "1637",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["philosophy"],
+        "importance": 10
+      },
+      {
+        "title": "Meditations on First Philosophy",
+        "startDate": "1641",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["philosophy"],
+        "importance": 10
+      }
     ],
-    "importance": 18
+    "tags": ["philosophy"],
+    "importance": 17
   },
   {
-    "id": "golden-age-piracy",
+    "title": "Diego Velázquez",
+    "startDate": "1599-06-06",
+    "endDate": "1660-08-06",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["art"],
+    "importance": 13
+  },
+  {
+    "title": "Rembrandt",
+    "startDate": "1606-07-15",
+    "endDate": "1669-10-04",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "The Night Watch",
+        "startDate": "1642",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["art"],
+        "importance": 14
+      }
+    ],
+    "tags": ["art"],
+    "importance": 15
+  },
+  {
+    "title": "Blaise Pascal",
+    "startDate": "1623-06-19",
+    "endDate": "1662-08-19",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Pensées",
+        "startDate": "1670",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["philosophy"],
+        "importance": 7
+      }
+    ],
+    "tags": ["philosophy"],
+    "importance": 12
+  },
+  {
+    "title": "Johannes Vermeer",
+    "startDate": "1632-10-01",
+    "endDate": "1675-12-15",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["art"],
+    "importance": 11
+  },
+  {
+    "title": "Isaac Newton",
+    "startDate": "1643-01-04",
+    "endDate": "1727-03-31",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Philosophiæ Naturalis Principia Mathematica",
+        "startDate": "1687-07-05",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["science"],
+        "importance": 20
+      }
+    ],
+    "tags": ["science", "physics", "mathematics"],
+    "importance": 20
+  },
+  {
+    "title": "Gottfried Wilhelm Leibniz",
+    "startDate": "1646-07-01",
+    "endDate": "1716-11-14",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "mathematics"],
+    "importance": 12
+  },
+  {
     "title": "Golden Age of Piracy",
     "startDate": "1650",
     "endDate": "1730",
     "type": "Period",
     "children": [
       {
-        "id": "henry-every",
+        "title": "Captain William Kidd",
+        "startDate": "1645",
+        "endDate": "1701-05-23",
+        "type": "Lifetime",
+        "tags": ["piracy", "maritime", "war"],
+        "importance": 3
+      },
+      {
         "title": "Henry Every",
         "startDate": "1659",
         "endDate": "1696",
         "type": "Lifetime",
         "children": [
           {
-            "id": "ganj-i-sawai",
             "title": "Capture of Ganj-i-Sawai",
             "startDate": "1695-09-07",
             "type": "Milestone",
             "children": [],
-            "tags": [
-              "war"
-            ],
+            "tags": ["war"],
             "importance": 4
           }
         ],
-        "tags": [
-          "piracy",
-          "maritime",
-          "war"
-        ],
+        "tags": ["piracy", "maritime", "war"],
         "importance": 5
-      },
-      {
-        "id": "william-kidd",
-        "title": "Captain William Kidd",
-        "startDate": "1645",
-        "endDate": "1701-05-23",
-        "type": "Lifetime",
-        "tags": [
-          "piracy",
-          "maritime",
-          "war"
-        ],
-        "importance": 3
       }
     ],
-    "tags": [
-      "war"
-    ],
+    "tags": ["war"],
     "importance": 3
   },
   {
-    "id": "opium-wars",
+    "title": "Antonio Vivaldi",
+    "startDate": "1678-03-04",
+    "endDate": "1741-07-28",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "The Four Seasons",
+        "startDate": "1723",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 12
+      }
+    ],
+    "tags": ["music"],
+    "importance": 12
+  },
+  {
+    "title": "Antoine Watteau",
+    "startDate": "1684-10-10",
+    "endDate": "1721-07-18",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["art"],
+    "importance": 10
+  },
+  {
+    "title": "Enlightenment",
+    "startDate": "1685-01-01",
+    "endDate": "1815-01-01",
+    "type": "Period",
+    "tags": ["philosophy", "politics", "r1t2"],
+    "importance": 18,
+    "children": [
+      {
+        "title": "Voltaire",
+        "startDate": "1694-11-21",
+        "endDate": "1778-05-30",
+        "type": "Lifetime",
+        "tags": ["philosophy", "r1t2"],
+        "importance": 15
+      }
+    ]
+  },
+  {
+    "title": "George Frideric Handel",
+    "startDate": "1685-02-23",
+    "endDate": "1759-04-14",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Messiah",
+        "startDate": "1741",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 10
+      }
+    ],
+    "tags": ["music"],
+    "importance": 10
+  },
+  {
+    "title": "Johann Sebastian Bach",
+    "startDate": "1685-03-31",
+    "endDate": "1750-07-28",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "St Matthew Passion",
+        "startDate": "1727",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 14
+      }
+    ],
+    "tags": ["music"],
+    "importance": 15
+  },
+  {
+    "title": "Leonhard Euler",
+    "startDate": "1707-04-15",
+    "endDate": "1783-09-18",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "mathematics"],
+    "importance": 15
+  },
+  {
+    "title": "Joseph Haydn",
+    "startDate": "1732-03-31",
+    "endDate": "1809-05-31",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "The Creation",
+        "startDate": "1798",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 10
+      }
+    ],
+    "tags": ["music"],
+    "importance": 10
+  },
+  {
+    "title": "James Watt",
+    "startDate": "1736-01-19",
+    "endDate": "1819-08-25",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science"],
+    "importance": 17
+  },
+  {
+    "title": "Francisco Goya",
+    "startDate": "1746-03-30",
+    "endDate": "1828-04-16",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["art"],
+    "importance": 11
+  },
+  {
+    "title": "Edward Jenner",
+    "startDate": "1749-05-17",
+    "endDate": "1823-01-26",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "medicine"],
+    "importance": 18
+  },
+  {
+    "title": "Johann Wolfgang von Goethe",
+    "startDate": "1749-08-28",
+    "endDate": "1832-03-22",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Faust (Part I)",
+        "startDate": "1808",
+        "type": "Milestone",
+        "tags": ["literature"],
+        "importance": 9
+      }
+    ],
+    "tags": ["literature", "science"],
+    "importance": 9
+  },
+  {
+    "title": "Wolfgang Amadeus Mozart",
+    "startDate": "1756-01-27",
+    "endDate": "1791-12-05",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Don Giovanni",
+        "startDate": "1787",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 14
+      }
+    ],
+    "tags": ["music"],
+    "importance": 15
+  },
+  {
+    "title": "Friedrich Schiller",
+    "startDate": "1759-11-10",
+    "endDate": "1805-05-09",
+    "type": "Lifetime",
+    "tags": ["literature"],
+    "importance": 9
+  },
+  {
+    "title": "Industrial Revolution",
+    "startDate": "1760-01-01",
+    "endDate": "1840-01-01",
+    "type": "Period",
+    "tags": ["technology", "economics", "r1t2"],
+    "importance": 19,
+    "children": [
+      {
+        "title": "Watt Steam Engine",
+        "startDate": "1776-01-01",
+        "type": "Milestone",
+        "tags": ["technology", "r1t2"],
+        "importance": 18
+      }
+    ]
+  },
+  {
+    "title": "Hanaoka Seishū",
+    "startDate": "1760-10-23",
+    "endDate": "1835-11-21",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "medicine"],
+    "importance": 8
+  },
+  {
+    "title": "Katsushika Hokusai",
+    "startDate": "1760-10-31",
+    "endDate": "1849-05-10",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Thirty-six Views of Mount Fuji",
+        "startDate": "1830",
+        "endDate": "1832",
+        "type": "Period",
+        "children": [],
+        "tags": ["art"],
+        "importance": 5
+      }
+    ],
+    "tags": ["art"],
+    "importance": 15
+  },
+  {
+    "title": "Marine Chronometer",
+    "startDate": "1761",
+    "type": "Milestone",
+    "children": [],
+    "tags": ["science", "technology", "exploration"],
+    "importance": 16
+  },
+  {
+    "title": "Ludwig van Beethoven",
+    "startDate": "1770-12-17",
+    "endDate": "1827-03-26",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Symphony No. 9",
+        "startDate": "1824",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 10
+      }
+    ],
+    "tags": ["music"],
+    "importance": 15
+  },
+  {
+    "title": "J.M.W. Turner",
+    "startDate": "1775-04-23",
+    "endDate": "1851-12-19",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["art"],
+    "importance": 13
+  },
+  {
+    "title": "Johann Carl Friedrich Gauss",
+    "startDate": "1777-04-30",
+    "endDate": "1855-02-23",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Disquisitiones Arithmeticae",
+        "startDate": "1801",
+        "type": "Milestone",
+        "tags": ["mathematics"],
+        "importance": 10
+      }
+    ],
+    "tags": ["science", "mathematics", "physics"],
+    "importance": 15
+  },
+  {
+    "title": "French Revolution",
+    "startDate": "1789-05-05",
+    "endDate": "1799-11-09",
+    "type": "Period",
+    "tags": ["politics", "r1t2"],
+    "importance": 18,
+    "children": []
+  },
+  {
+    "title": "Franz Schubert",
+    "startDate": "1797-01-31",
+    "endDate": "1828-11-19",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Winterreise",
+        "startDate": "1827",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 9
+      }
+    ],
+    "tags": ["music"],
+    "importance": 9
+  },
+  {
+    "title": "Charles Darwin",
+    "startDate": "1809-02-12",
+    "endDate": "1882-04-19",
+    "type": "Lifetime",
+    "tags": ["biology", "r1t2"],
+    "importance": 18,
+    "children": []
+  },
+  {
+    "title": "Charles Darwin",
+    "startDate": "1809-02-12",
+    "endDate": "1882-04-19",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "biology"],
+    "importance": 19
+  },
+  {
+    "title": "Frédéric Chopin",
+    "startDate": "1810-03-01",
+    "endDate": "1849-10-17",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Nocturnes",
+        "startDate": "1830",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 10
+      }
+    ],
+    "tags": ["music"],
+    "importance": 10
+  },
+  {
+    "title": "Richard Wagner",
+    "startDate": "1813-05-22",
+    "endDate": "1883-02-13",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Tristan und Isolde",
+        "startDate": "1865",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 10
+      }
+    ],
+    "tags": ["music"],
+    "importance": 10
+  },
+  {
+    "title": "Giuseppe Verdi",
+    "startDate": "1813-10-10",
+    "endDate": "1901-01-27",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "La Traviata",
+        "startDate": "1853",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 13
+      }
+    ],
+    "tags": ["music"],
+    "importance": 13
+  },
+  {
+    "title": "Karl Marx",
+    "startDate": "1818-05-05",
+    "endDate": "1883-03-14",
+    "type": "Lifetime",
+    "tags": ["philosophy", "economics", "r1t2"],
+    "importance": 17,
+    "children": []
+  },
+  {
+    "title": "Gregor Mendel",
+    "startDate": "1822-07-20",
+    "endDate": "1884-01-06",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science"],
+    "importance": 13
+  },
+  {
+    "title": "Louis Pasteur",
+    "startDate": "1822-12-27",
+    "endDate": "1895-09-28",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Germ Theory of Disease",
+        "startDate": "1862",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["science"],
+        "importance": 19
+      }
+    ],
+    "tags": ["science", "chemistry", "medicine"],
+    "importance": 17
+  },
+  {
+    "title": "Phineas Gage",
+    "startDate": "1823-07-09",
+    "endDate": "1860-05-21",
+    "type": "Lifetime",
+    "tags": ["science", "medicine", "psychology"],
+    "importance": 1
+  },
+  {
+    "title": "Johann Strauss II",
+    "startDate": "1825-10-25",
+    "endDate": "1899-06-03",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "The Blue Danube",
+        "startDate": "1867",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 8
+      }
+    ],
+    "tags": ["music"],
+    "importance": 8
+  },
+  {
+    "title": "Édouard Manet",
+    "startDate": "1832-01-23",
+    "endDate": "1883-04-30",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Le Déjeuner sur l'herbe",
+        "startDate": "1863",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["art"],
+        "importance": 15
+      }
+    ],
+    "tags": ["art"],
+    "importance": 17
+  },
+  {
     "title": "Opium Wars",
     "startDate": "1839",
     "endDate": "1860",
     "type": "Period",
     "children": [
       {
-        "id": "first-opium-war",
         "title": "First Opium War",
         "startDate": "1839",
         "endDate": "1842",
         "type": "Period",
         "children": [],
-        "tags": [
-          "war"
-        ],
+        "tags": ["war"],
         "importance": 5
       },
       {
-        "id": "second-opium-war",
         "title": "Second Opium War",
         "startDate": "1856",
         "endDate": "1860",
         "type": "Period",
         "children": [],
-        "tags": [
-          "war"
-        ],
+        "tags": ["war"],
         "importance": 5
       }
     ],
-    "tags": [
-      "war",
-      "politics",
-      "colonialism"
-    ],
+    "tags": ["war", "politics"],
     "importance": 5
   },
   {
-    "id": "vietnam-war",
+    "title": "Paul Cézanne",
+    "startDate": "1839-01-19",
+    "endDate": "1906-10-22",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Mont Sainte-Victoire series",
+        "startDate": "1882",
+        "endDate": "1906",
+        "type": "Period",
+        "children": [],
+        "tags": ["art"],
+        "importance": 14
+      }
+    ],
+    "tags": ["art"],
+    "importance": 15
+  },
+  {
+    "title": "Claude Monet",
+    "startDate": "1840-11-14",
+    "endDate": "1926-12-05",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Impression, Sunrise",
+        "startDate": "1872",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["art"],
+        "importance": 16
+      },
+      {
+        "title": "Water Lilies series",
+        "startDate": "1914",
+        "endDate": "1926",
+        "type": "Period",
+        "children": [],
+        "tags": ["art"],
+        "importance": 17
+      }
+    ],
+    "tags": ["art"],
+    "importance": 18
+  },
+  {
+    "title": "Robert Koch",
+    "startDate": "1843-12-11",
+    "endDate": "1910-05-27",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "medicine"],
+    "importance": 15
+  },
+  {
+    "title": "First Public Demonstration of Anaesthesia",
+    "startDate": "1846-10-16",
+    "type": "Milestone",
+    "children": [],
+    "tags": ["science", "medicine"],
+    "importance": 18
+  },
+  {
+    "title": "Thomas Alva Edison",
+    "startDate": "1847-02-11",
+    "endDate": "1931-10-18",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Phonograph",
+        "startDate": "1877",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["science"],
+        "importance": 13
+      },
+      {
+        "title": "Incandescent Light Bulb",
+        "startDate": "1879-10-22",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["science"],
+        "importance": 18
+      }
+    ],
+    "tags": ["science"],
+    "importance": 15
+  },
+  {
+    "title": "Antoni Gaudí",
+    "startDate": "1852-06-25",
+    "endDate": "1926-06-10",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Start of the construction of the Sagrada Família",
+        "startDate": "1882-03-19",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["architecture"],
+        "importance": 16
+      }
+    ],
+    "tags": ["architecture"],
+    "importance": 15
+  },
+  {
+    "title": "Vincent van Gogh",
+    "startDate": "1853-03-30",
+    "endDate": "1890-07-29",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Sunflowers",
+        "startDate": "1888",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["art"],
+        "importance": 18
+      },
+      {
+        "title": "The Starry Night",
+        "startDate": "1889-06",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["art"],
+        "importance": 19
+      }
+    ],
+    "tags": ["art"],
+    "importance": 20
+  },
+  {
+    "title": "Sigmund Freud",
+    "startDate": "1856-05-06",
+    "endDate": "1939-09-23",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "psychology"],
+    "importance": 15
+  },
+  {
+    "title": "Nikola Tesla",
+    "startDate": "1856-07-10",
+    "endDate": "1943-01-07",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science"],
+    "importance": 15
+  },
+  {
+    "title": "Seurat",
+    "startDate": "1859-12-02",
+    "endDate": "1891-03-29",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["art"],
+    "importance": 14
+  },
+  {
+    "title": "Alphonse Mucha",
+    "startDate": "1860-07-24",
+    "endDate": "1939-07-04",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["art"],
+    "importance": 15
+  },
+  {
+    "title": "Gustav Klimt",
+    "startDate": "1862-07-14",
+    "endDate": "1918-02-06",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "The Kiss",
+        "startDate": "1907",
+        "endDate": "1908",
+        "type": "Period",
+        "children": [],
+        "tags": ["art"],
+        "importance": 14
+      }
+    ],
+    "tags": ["art"],
+    "importance": 15
+  },
+  {
+    "title": "Claude Debussy",
+    "startDate": "1862-08-22",
+    "endDate": "1918-03-25",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Suite bergamasque (Clair de Lune)",
+        "startDate": "1905",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 9
+      }
+    ],
+    "tags": ["music"],
+    "importance": 9
+  },
+  {
+    "title": "Vasiliy Kandinskiy",
+    "startDate": "1866-12-16",
+    "endDate": "1944-12-13",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Composition VIII",
+        "startDate": "1923",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["art"],
+        "importance": 14
+      }
+    ],
+    "tags": ["art"],
+    "importance": 15
+  },
+  {
+    "title": "Frank Lloyd Wright",
+    "startDate": "1867-06-08",
+    "endDate": "1959-04-09",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["architecture"],
+    "importance": 18
+  },
+  {
+    "title": "Marie Curie",
+    "startDate": "1867-11-07",
+    "endDate": "1934-07-04",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "physics", "chemistry"],
+    "importance": 17
+  },
+  {
+    "title": "Mahatma Gandhi",
+    "startDate": "1869-10-02",
+    "endDate": "1948-01-30",
+    "type": "Lifetime",
+    "tags": ["politics", "r1t2"],
+    "importance": 17,
+    "children": []
+  },
+  {
+    "title": "Henri Matisse",
+    "startDate": "1869-12-31",
+    "endDate": "1954-11-03",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "The Dance",
+        "startDate": "1909",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["art"],
+        "importance": 14
+      }
+    ],
+    "tags": ["art"],
+    "importance": 15
+  },
+  {
+    "title": "Piet Mondrian",
+    "startDate": "1872-03-07",
+    "endDate": "1944-02-01",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Composition with Red, Blue, and Yellow",
+        "startDate": "1930",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["art"],
+        "importance": 16
+      }
+    ],
+    "tags": ["art"],
+    "importance": 17
+  },
+  {
+    "title": "Bertrand Arthur William Russell",
+    "startDate": "1872-05-18",
+    "endDate": "1970-02-02",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Principia Mathematica",
+        "startDate": "1910",
+        "type": "Milestone",
+        "tags": ["mathematics", "philosophy"],
+        "importance": 9
+      }
+    ],
+    "tags": ["philosophy", "mathematics"],
+    "importance": 15
+  },
+  {
+    "title": "Sergei Rachmaninoff",
+    "startDate": "1873-04-01",
+    "endDate": "1943-03-28",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Piano Concerto No. 2",
+        "startDate": "1901",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 9
+      }
+    ],
+    "tags": ["music"],
+    "importance": 9
+  },
+  {
+    "title": "Albert Einstein",
+    "startDate": "1879-03-14",
+    "endDate": "1955-04-18",
+    "type": "Lifetime",
+    "tags": ["physics", "r1t2"],
+    "importance": 19,
+    "children": []
+  },
+  {
+    "title": "Albert Einstein",
+    "startDate": "1879-03-14",
+    "endDate": "1955-04-18",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Theory of Relativity published",
+        "startDate": "1905-06-30",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["science"],
+        "importance": 20
+      }
+    ],
+    "tags": ["science", "physics"],
+    "importance": 20
+  },
+  {
+    "title": "Alexander Fleming",
+    "startDate": "1881-08-06",
+    "endDate": "1955-03-11",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Penicillin Discovery",
+        "startDate": "1928-09-28",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["science"],
+        "importance": 20
+      }
+    ],
+    "tags": ["science", "medicine"],
+    "importance": 17
+  },
+  {
+    "title": "Walter Gropius",
+    "startDate": "1883-05-18",
+    "endDate": "1969-07-05",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["architecture", "design"],
+    "importance": 17
+  },
+  {
+    "title": "John Maynard Keynes",
+    "startDate": "1883-06-05",
+    "endDate": "1946-04-21",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "The General Theory of Employment, Interest and Money",
+        "startDate": "1936-02-04",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["science"],
+        "importance": 16
+      }
+    ],
+    "tags": ["science", "economics"],
+    "importance": 15
+  },
+  {
+    "title": "Coco Chanel",
+    "startDate": "1883-08-19",
+    "endDate": "1971-01-10",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["design"],
+    "importance": 15
+  },
+  {
+    "title": "Niels Bohr",
+    "startDate": "1885-10-07",
+    "endDate": "1962-11-18",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "physics"],
+    "importance": 15
+  },
+  {
+    "title": "Ludwig Mies van der Rohe",
+    "startDate": "1886-03-27",
+    "endDate": "1969-08-17",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["architecture", "design"],
+    "importance": 15
+  },
+  {
+    "title": "Le Corbusier",
+    "startDate": "1887-10-06",
+    "endDate": "1965-08-27",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["architecture"],
+    "importance": 15
+  },
+  {
+    "title": "Georgia O'Keeffe",
+    "startDate": "1887-11-15",
+    "endDate": "1986-03-06",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["art"],
+    "importance": 12
+  },
+  {
+    "title": "Friedrich Hayek",
+    "startDate": "1899-05-08",
+    "endDate": "1992-03-23",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "The Road to Serfdom",
+        "startDate": "1944",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["philosophy"],
+        "importance": 10
+      }
+    ],
+    "tags": ["philosophy", "economics"],
+    "importance": 16
+  },
+  {
+    "title": "Louis Armstrong",
+    "startDate": "1901-08-04",
+    "endDate": "1971-07-06",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "West End Blues",
+        "startDate": "1928",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 14
+      }
+    ],
+    "tags": ["music"],
+    "importance": 14
+  },
+  {
+    "title": "Karl Popper",
+    "startDate": "1902-07-28",
+    "endDate": "1994-09-17",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "The Logic of Scientific Discovery",
+        "startDate": "1934",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["philosophy"],
+        "importance": 10
+      }
+    ],
+    "tags": ["philosophy", "science"],
+    "importance": 14
+  },
+  {
+    "title": "Wright Brothers First Flight",
+    "startDate": "1903-12-17",
+    "type": "Milestone",
+    "tags": ["technology", "r1t2"],
+    "importance": 16
+  },
+  {
+    "title": "John von Neumann",
+    "startDate": "1903-12-28",
+    "endDate": "1957-02-08",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "mathematics", "information technology"],
+    "importance": 15
+  },
+  {
+    "title": "B. F. Skinner",
+    "startDate": "1904-03-20",
+    "endDate": "1990-08-18",
+    "type": "Lifetime",
+    "tags": ["science", "psychology"],
+    "importance": 10
+  },
+  {
+    "title": "Jackson Pollock",
+    "startDate": "1912-01-28",
+    "endDate": "1956-08-11",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "No. 5, 1948",
+        "startDate": "1948",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["art"],
+        "importance": 16
+      }
+    ],
+    "tags": ["art"],
+    "importance": 17
+  },
+  {
+    "title": "Alan Turing",
+    "startDate": "1912-06-23",
+    "endDate": "1954-06-07",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "First bombe installed",
+        "startDate": "1940-03-18",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["information technology"],
+        "importance": 4
+      }
+    ],
+    "tags": ["science", "information technology"],
+    "importance": 12
+  },
+  {
+    "title": "Norman Borlaug",
+    "startDate": "1914-03-25",
+    "endDate": "2009-09-12",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science"],
+    "importance": 16
+  },
+  {
+    "title": "World War I",
+    "startDate": "1914-07-28",
+    "endDate": "1918-11-11",
+    "type": "Period",
+    "tags": ["war", "r1t2", "politics"],
+    "importance": 18,
+    "children": []
+  },
+  {
+    "title": "Claude Shannon",
+    "startDate": "1916-04-30",
+    "endDate": "2001-02-24",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "information technology", "physics"],
+    "importance": 7
+  },
+  {
+    "title": "Russian Revolution",
+    "startDate": "1917-03-08",
+    "endDate": "1923-06-16",
+    "type": "Period",
+    "tags": ["politics", "r1t2"],
+    "importance": 17,
+    "children": []
+  },
+  {
+    "title": "Miles Davis",
+    "startDate": "1926-05-26",
+    "endDate": "1991-09-28",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Kind of Blue",
+        "startDate": "1959",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 13
+      }
+    ],
+    "tags": ["music"],
+    "importance": 13
+  },
+  {
+    "title": "John Forbes Nash Jr.",
+    "startDate": "1928-06-13",
+    "endDate": "2015-05-23",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Nash Equilibrium",
+        "startDate": "1950",
+        "type": "Milestone",
+        "tags": ["economics"],
+        "importance": 9
+      }
+    ],
+    "tags": ["mathematics", "economics"],
+    "importance": 13
+  },
+  {
+    "title": "Andy Warhol",
+    "startDate": "1928-08-06",
+    "endDate": "1987-02-22",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Campbell's Soup Cans",
+        "startDate": "1962",
+        "type": "Milestone",
+        "children": [],
+        "tags": ["art"],
+        "importance": 16
+      }
+    ],
+    "tags": ["art"],
+    "importance": 17
+  },
+  {
+    "title": "Frank Gehry",
+    "startDate": "1929-02-28",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["architecture"],
+    "importance": 15
+  },
+  {
+    "title": "Great Depression",
+    "startDate": "1929-10-29",
+    "endDate": "1939-01-01",
+    "type": "Period",
+    "tags": ["economics", "r1t2"],
+    "importance": 17,
+    "children": []
+  },
+  {
+    "title": "Dieter Rams",
+    "startDate": "1932-05-20",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["design"],
+    "importance": 12
+  },
+  {
+    "title": "Elvis Presley",
+    "startDate": "1935-01-08",
+    "endDate": "1977-08-16",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["music"],
+    "importance": 13
+  },
+  {
+    "title": "World War II",
+    "startDate": "1939-09-01",
+    "endDate": "1945-09-02",
+    "type": "Period",
+    "tags": ["war", "r1t2", "politics"],
+    "importance": 19,
+    "children": [
+      {
+        "title": "Atomic Bomb",
+        "startDate": "1945-08-06",
+        "type": "Milestone",
+        "tags": ["technology", "war", "r1t2"],
+        "importance": 18
+      }
+    ]
+  },
+  {
+    "title": "Stephen Hawking",
+    "startDate": "1941-01-08",
+    "endDate": "2018-03-14",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["science", "physics"],
+    "importance": 13
+  },
+  {
+    "title": "Bretton Woods Conference",
+    "startDate": "1944-07-01",
+    "endDate": "1944-07-22",
+    "type": "Period",
+    "children": [],
+    "tags": ["economics", "politics"],
+    "importance": 15
+  },
+  {
+    "title": "Partition of India",
+    "startDate": "1947-08-15",
+    "type": "Milestone",
+    "children": [],
+    "tags": ["politics"],
+    "importance": 13
+  },
+  {
+    "title": "Creation of the State of Israel",
+    "startDate": "1948-05-14",
+    "type": "Milestone",
+    "children": [],
+    "tags": ["politics", "war"],
+    "importance": 18
+  },
+  {
+    "title": "Zaha Hadid",
+    "startDate": "1950-10-31",
+    "endDate": "2016-03-31",
+    "type": "Lifetime",
+    "children": [],
+    "tags": ["architecture"],
+    "importance": 14
+  },
+  {
+    "title": "DNA Structure Discovery",
+    "startDate": "1953-02-28",
+    "type": "Milestone",
+    "tags": ["biology", "r1t2"],
+    "importance": 18
+  },
+  {
+    "title": "Civil Rights Movement",
+    "startDate": "1954-01-01",
+    "endDate": "1968-01-01",
+    "type": "Period",
+    "tags": ["politics", "r1t2"],
+    "importance": 17,
+    "children": []
+  },
+  {
     "title": "Vietnam War",
     "startDate": "1955-11-01",
     "endDate": "1975-04-30",
     "type": "Period",
     "children": [],
-    "tags": [
-      "war",
-      "politics"
-    ],
+    "tags": ["war", "politics"],
     "importance": 5
+  },
+  {
+    "title": "Michael Jackson",
+    "startDate": "1958-08-29",
+    "endDate": "2009-06-25",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Thriller",
+        "startDate": "1982",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 13
+      }
+    ],
+    "tags": ["music"],
+    "importance": 13
+  },
+  {
+    "title": "The Beatles",
+    "startDate": "1960",
+    "endDate": "1970",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Sgt. Pepper's Lonely Hearts Club Band",
+        "startDate": "1967",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 13
+      }
+    ],
+    "tags": ["music"],
+    "importance": 15
+  },
+  {
+    "title": "The Beach Boys",
+    "startDate": "1961",
+    "type": "Lifetime",
+    "children": [
+      {
+        "title": "Pet Sounds",
+        "startDate": "1966",
+        "type": "Milestone",
+        "tags": ["music"],
+        "importance": 14
+      }
+    ],
+    "tags": ["music"],
+    "importance": 15
+  },
+  {
+    "title": "Moon Landing",
+    "startDate": "1969-07-20",
+    "type": "Milestone",
+    "tags": ["technology", "exploration", "r1t2"],
+    "importance": 17
+  },
+  {
+    "title": "Internet",
+    "startDate": "1969-10-29",
+    "type": "Milestone",
+    "tags": ["technology", "r1t2"],
+    "importance": 19
+  },
+  {
+    "title": "World Wide Web",
+    "startDate": "1989-03-12",
+    "type": "Milestone",
+    "tags": ["technology", "r1t2"],
+    "importance": 18
+  },
+  {
+    "title": "Fall of the Berlin Wall",
+    "startDate": "1989-11-09",
+    "type": "Milestone",
+    "children": [],
+    "tags": ["politics", "r1t2"],
+    "importance": 18
+  },
+  {
+    "title": "Human Genome Project",
+    "startDate": "1990-10-01",
+    "endDate": "2003-04-14",
+    "type": "Period",
+    "tags": ["biology", "r1t2"],
+    "importance": 16,
+    "children": []
+  },
+  {
+    "title": "9/11 Attacks",
+    "startDate": "2001-09-11",
+    "type": "Milestone",
+    "tags": ["politics", "war", "r1t2"],
+    "importance": 17
+  },
+  {
+    "title": "CRISPR Gene Editing",
+    "startDate": "2012-06-28",
+    "type": "Milestone",
+    "tags": ["biology", "r1t2"],
+    "importance": 16
+  },
+  {
+    "title": "COVID-19 Pandemic",
+    "startDate": "2019-12-01",
+    "endDate": "2023-05-05",
+    "type": "Period",
+    "tags": ["medicine", "r1t2"],
+    "importance": 16,
+    "children": []
   }
 ]

@@ -1,6 +1,7 @@
 import { useSuspenseQuery } from '@tanstack/react-query'
 import type { TimelineEntity } from '../../models/TimelineEntity'
 import dayjs from 'dayjs'
+import { nanoid } from 'nanoid'
 
 export function useEntities(): TimelineEntity[] {
   return useSuspenseQuery({
@@ -21,12 +22,14 @@ export function mapToEntity(entities: TimelineEntityDto[]): TimelineEntity[] {
       case 'Milestone':
         return {
           ...entity,
+          id: nanoid(),
           startDate: dayjs(entity.startDate),
         }
       case 'Period':
       case 'Lifetime':
         return {
           ...entity,
+          id: nanoid(),
           startDate: dayjs(entity.startDate),
           endDate: dayjs(entity.endDate),
           children: mapToEntity(entity.children ?? []),
@@ -38,7 +41,6 @@ export function mapToEntity(entities: TimelineEntityDto[]): TimelineEntity[] {
 export type TimelineEntityDto = MilestoneDto | PeriodDto | LifetimeDto
 
 interface MilestoneDto {
-  id: string
   title: string
   startDate: string
   type: 'Milestone'
@@ -47,7 +49,6 @@ interface MilestoneDto {
 }
 
 interface PeriodDto {
-  id: string
   title: string
   startDate: string
   endDate?: string
@@ -58,7 +59,6 @@ interface PeriodDto {
 }
 
 interface LifetimeDto {
-  id: string
   title: string
   startDate: string
   endDate?: string
