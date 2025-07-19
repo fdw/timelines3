@@ -1,8 +1,6 @@
 import type { ReactElement } from 'react'
 import type { TimelineEntity } from '../../models/TimelineEntity'
-import { MilestoneComponent } from './Elements/MilestoneComponent'
-import { PeriodComponent } from './Elements/PeriodComponent'
-import { LifetimeComponent } from './Elements/LifetimeComponent'
+import { LifetimeComponent, MilestoneComponent, PeriodComponent } from './Elements/EntityVisualizations.tsx'
 
 export function TimelineEntityItem({ entity, y }: { entity: TimelineEntity; y: number }): ReactElement {
   switch (entity.type) {

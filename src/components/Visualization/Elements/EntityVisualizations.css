@@ -1,0 +1,11 @@
+.milestone,
+.lifetime,
+.period {
+  fill: #fbbc05;
+  stroke: #e37400;
+  stroke-width: 1;
+}
+
+.title {
+  font-weight: 300;
+}

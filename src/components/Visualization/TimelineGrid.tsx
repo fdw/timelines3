@@ -28,7 +28,7 @@ function GridLine({ year }: { year: number }): ReactElement {
 
 function YearLabel({ year, x }: { year: number; x: number }): ReactElement {
   return (
-    <text fontSize="12" textAnchor="middle" x={x} y="97%">
+    <text fontSize="16" textAnchor="middle" x={x} y="97%">
       {year < 0 ? `${Math.abs(year)} BCE` : year.toString()}
     </text>
   )

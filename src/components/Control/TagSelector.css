@@ -5,6 +5,7 @@
 .tag-selector-button {
   padding: 4px 8px;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .tag-dropdown {

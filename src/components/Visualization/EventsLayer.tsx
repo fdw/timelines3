@@ -30,7 +30,7 @@ export function EventsLayer(): ReactElement | null {
 }
 
 function calculateLanePositions(entities: TimelineEntity[]): Record<string, number> {
-  const laneHeight = 60
+  const laneHeight = 45
   const positions: Record<string, number> = {}
 
   const sortedEntities = [...entities].sort((a, b) => (a.startDate.isBefore(b.startDate) ? -1 : 1))
