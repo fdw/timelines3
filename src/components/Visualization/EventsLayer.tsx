@@ -13,7 +13,7 @@ export function EventsLayer(): ReactElement | null {
   const entities = useEntities()
 
   const filteredEntities = useMemo(() => {
-    return entities.filter((it) => it.tags.some((tag) => selectedTags.has(tag)) && it.importance > zoomFactor)
+    return entities.filter((it) => it.tags.some((tag) => selectedTags.includes(tag)) && it.importance > zoomFactor)
   }, [entities, selectedTags, zoomFactor])
 
   const lanePositions = useMemo(() => {
