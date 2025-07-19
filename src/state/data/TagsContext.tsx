@@ -2,7 +2,7 @@ import { type ReactElement, type ReactNode, useMemo, useState } from 'react'
 import { TagsContext } from './TagsContextType'
 
 export function TagsProvider({ children }: { children: ReactNode }): ReactElement {
-  const [selectedTags, setSelectedTags] = useState<Set<string>>(new Set(['architecture']))
+  const [selectedTags, setSelectedTags] = useState<Set<string>>(new Set(['science', 'art', 'war', 'politics']))
 
   const value = useMemo(() => ({ selectedTags, setSelectedTags }), [selectedTags])
 
