@@ -85,13 +85,14 @@ function getEntityEndDate(entity: TimelineEntity): Dayjs {
 
 function distributeEntitiesToLanes(sortedEntities: TimelineEntity[], lanesCount: number): Record<string, number> {
   const entityToLaneMap: Record<string, number> = {}
-  const laneEndDates: [number, Dayjs | undefined][] = Array.from({ length: lanesCount }, (_, index) => [
-    index,
-    undefined,
-  ])
+  const laneEndDates: [number, Dayjs | undefined][] = Array.from(
+    { length: lanesCount },
+    (_, index): [number, Dayjs | undefined] => [index, undefined],
+  ).sort(() => Math.random() - 0.5)
 
   for (const entity of sortedEntities) {
-    const nextLane = laneEndDates.shift()!
+    const nextLaneIndex = laneEndDates.findIndex((it) => it[1] === undefined || it[1].isBefore(entity.startDate))
+    const nextLane = laneEndDates.splice(nextLaneIndex, 1)[0]
     entityToLaneMap[entity.id] = nextLane[0]
 
     const nextEntityIndex = laneEndDates.findIndex((it) => it[1]?.isAfter(getEntityEndDate(entity) ?? true))
