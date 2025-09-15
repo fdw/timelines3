@@ -1,0 +1,6 @@
+- [ ] Use priority of entities when zooming
+- [ ] Implement dynamic nesting
+- [ ] Dynamically change when grid lines are shown
+- [ ] Replace Zoom Context with reducer/dispatch?
+- [ ] Replace data set contet with reducer/dispatch?
+- [ ] Support BCE
