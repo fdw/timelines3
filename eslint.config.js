@@ -15,7 +15,7 @@ export default tseslint.config([
       js.configs.recommended,
       tseslint.configs.recommended,
       tseslint.configs.stylisticTypeChecked,
-      reactHooks.configs['recommended-latest'],
+      reactHooks.configs.flat.recommended,
       reactRefresh.configs.vite,
     ],
     plugins: {
