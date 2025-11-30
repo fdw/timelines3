@@ -167,15 +167,6 @@
     "importance": 13
   },
   {
-    "title": "Mongol Empire",
-    "startDate": "1206-01-01",
-    "endDate": "1368-01-01",
-    "type": "Period",
-    "tags": ["politics", "r1t2"],
-    "importance": 18,
-    "children": []
-  },
-  {
     "title": "Magna Carta",
     "startDate": "1215-06-15",
     "type": "Milestone",
@@ -1468,34 +1459,6 @@
     "importance": 14
   },
   {
-    "title": "Alphonse Mucha",
-    "startDate": "1860-07-24",
-    "endDate": "1939-07-04",
-    "type": "Lifetime",
-    "children": [],
-    "tags": ["art"],
-    "importance": 15
-  },
-  {
-    "title": "Gustav Klimt",
-    "startDate": "1862-07-14",
-    "endDate": "1918-02-06",
-    "type": "Lifetime",
-    "children": [
-      {
-        "title": "The Kiss",
-        "startDate": "1907",
-        "endDate": "1908",
-        "type": "Period",
-        "children": [],
-        "tags": ["art"],
-        "importance": 14
-      }
-    ],
-    "tags": ["art"],
-    "importance": 15
-  },
-  {
     "title": "Claude Debussy",
     "startDate": "1862-08-22",
     "endDate": "1918-03-25",
@@ -2173,6 +2136,116 @@
     "type": "Period",
     "tags": ["medicine", "r1t2"],
     "importance": 16,
+    "children": []
+  },
+  {
+    "title": "Wiener Secession",
+    "startDate": "1897-04-03",
+    "endDate": "1939-01-01",
+    "type": "Period",
+    "tags": ["art"],
+    "importance": 18,
+    "children": [
+      {
+        "title": "Gustav Klimt",
+        "startDate": "1862-07-14",
+        "endDate": "1918-02-06",
+        "type": "Lifetime",
+        "children": [
+          {
+            "title": "The Kiss",
+            "startDate": "1907",
+            "endDate": "1908",
+            "type": "Period",
+            "children": [],
+            "tags": ["art"],
+            "importance": 14
+          }
+        ],
+        "tags": ["art"],
+        "importance": 15
+      },
+      {
+        "title": "Koloman Moser",
+        "startDate": "1868-03-30",
+        "endDate": "1918-10-18",
+        "type": "Lifetime",
+        "tags": ["design", "art"],
+        "importance": 16,
+        "children": []
+      },
+      {
+        "title": "Wiener Werkstätte",
+        "startDate": "1903-05-01",
+        "endDate": "1932-01-01",
+        "type": "Period",
+        "tags": ["design"],
+        "importance": 15,
+        "children": []
+      },
+      {
+        "title": "Otto Wagner",
+        "startDate": "1841-07-13",
+        "endDate": "1918-04-11",
+        "type": "Lifetime",
+        "tags": ["architecture"],
+        "importance": 17,
+        "children": []
+      },
+      {
+        "title": "Josef Hoffmann",
+        "startDate": "1870-12-15",
+        "endDate": "1956-05-07",
+        "type": "Lifetime",
+        "tags": ["architecture", "design"],
+        "importance": 15,
+        "children": []
+      },
+      {
+        "title": "Egon Schiele",
+        "startDate": "1890-06-12",
+        "endDate": "1918-10-31",
+        "type": "Lifetime",
+        "tags": ["art"],
+        "importance": 18,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Jugendstil",
+    "startDate": "1895-01-01",
+    "endDate": "1914-01-01",
+    "type": "Period",
+    "tags": ["art"],
+    "importance": 19,
+    "children": [
+      {
+        "title": "Alphonse Mucha",
+        "startDate": "1860-07-24",
+        "endDate": "1939-07-14",
+        "type": "Lifetime",
+        "tags": ["art"],
+        "importance": 17,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Genghis Khan (Temüjin)",
+    "startDate": "1162-01-01",
+    "endDate": "1227-08-18",
+    "type": "Lifetime",
+    "tags": [],
+    "importance": 20
+  },
+  {
+    "title": "Mongol Empire",
+    "startDate": "1206-01-01",
+    "endDate": "1368-01-01",
+    "type": "Period",
+    "tags": ["politics", "r1t2"],
+    "importance": 18,
     "children": []
   }
 ]
